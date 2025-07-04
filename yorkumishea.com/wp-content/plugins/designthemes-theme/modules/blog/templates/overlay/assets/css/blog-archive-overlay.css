@@ -1,0 +1,127 @@
+
+/*----*****---- << Overlay Type Styles >> ----*****----*/
+
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details { background: rgba(var(--DTBlack_RGB), .8); bottom: 15%; margin: 0; padding: 25px 25px 25px 10%; position: absolute; width: 70%; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details .entry-author img, .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout .blog-entry .entry-meta-group .entry-author img, .dt-sc-overlay-style.dt-sc-post-entry.entry-grid-layout .blog-entry .entry-meta-group .entry-author img { border-radius: 50%; margin-right: 5px; position: relative; }
+
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry { background: transparent; box-shadow: none; min-height: 670px; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > .entry-meta-group { border: none; padding-top: 0; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div:last-child { margin-bottom: 0; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > .entry-tags { background: var(--DTBlackColor); display: block; margin: 0; padding: 0 10px; position: absolute; top: -12px; width: auto; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > .entry-tags a,
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > .entry-tags a:after { color: var(--DTWhiteColor); }
+
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div { padding: 0; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div:first-child { margin-top: 0; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group,.dt-sc-overlay-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group { border: none; margin: 0; padding: 0; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-meta-group { border: none; margin: 0; padding-bottom: 0; padding-top: 0; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout .blog-entry > div:last-child { margin-bottom: 25px; }
+
+    div[class*="entry-"].dt-sc-overlay-style.dt-sc-post-entry .entry-details div.entry-meta-group > div,div[class*="entry-"].dt-sc-overlay-style.dt-sc-post-entry div.entry-meta-group > div,div[class*="entry-"].dt-sc-minimal-style.dt-sc-post-entry div.entry-meta-group > div,div[class*="entry-"].dt-sc-classic-ii-style.dt-sc-post-entry div.entry-meta-group > div { display: inline-block; float: none; margin-bottom: 10px; margin-right: 10px; position: relative; }
+    div[class*="entry-"].dt-sc-overlay-style.dt-sc-post-entry .entry-details div.entry-meta-group > div:last-child,div[class*="entry-"].dt-sc-overlay-style.dt-sc-post-entry div.entry-meta-group > div:last-child { margin-right: 0; }
+    div[class*="entry-"].dt-sc-overlay-style.dt-sc-post-entry .entry-details div.entry-meta-group > div:after,div[class*="entry-"].dt-sc-overlay-style.dt-sc-post-entry div.entry-meta-group > div:after { background: rgba(255, 255, 255, .4); content: ""; display: inline-block; height: 15px; margin-left: 5px; vertical-align: middle; width: 2px; }
+    div[class*="entry-"].dt-sc-overlay-style.dt-sc-post-entry div.entry-meta-group > div:after { background: rgba(var(--DTBlack_RGB), .1); }
+    div[class*="entry-"].dt-sc-overlay-style.dt-sc-post-entry .entry-details div.entry-meta-group > div:last-child:after,div[class*="entry-"].dt-sc-overlay-style.dt-sc-post-entry div.entry-meta-group > div:last-child:after { content: none; }
+
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout.aligncenter .blog-entry .entry-details { bottom: auto; left: 0; margin: 0 auto; padding: 25px; right: 0; top: 50%; transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); width: 80%; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout.aligncenter .blog-entry .entry-details > .entry-tags { display: table; left: 0; margin: 0 auto; right: 0; width: fit-content; }
+
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout.alignright .blog-entry .entry-details { left: auto; padding: 25px 10% 25px 25px; right: 0; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout.alignright .blog-entry .entry-details > .entry-tags { left: auto; margin-right: 14%; right: 0; }
+
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout.dt-sc-one-half .blog-entry .entry-details { bottom: 10%; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout.dt-sc-one-half.aligncenter .blog-entry .entry-details { bottom: auto; }
+
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout .blog-entry,.dt-sc-overlay-style.dt-sc-post-entry.entry-grid-layout .blog-entry { background: #f7f7f7; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout .blog-entry .entry-thumb { border-right: 4px solid var(--DTBlackColor); }
+
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout.entry-right-thumb .blog-entry .entry-thumb { border-left: 4px solid var(--DTBlackColor); border-right: none; }
+
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div:not(.entry-thumb) { padding: 0 25px; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div:not(.entry-thumb):first-child,.dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group + div:not(.entry-tags),.dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout.dt-sc-post-entry .blog-entry > div:first-child:not(.entry-thumb) { margin-top: 20px; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-thumb { border-bottom: 4px solid var(--DTBlackColor); }
+    
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-grid-layout .blog-entry:not(.has-post-thumbnail) > div.entry-thumb:first-child + div { margin-top: 20px; }
+    
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div:last-child { margin-bottom: 20px; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout .blog-entry > .entry-body p { margin: 0; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group + .entry-button { margin-top: 10px; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-button:last-child { margin-bottom: 25px; }
+
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout.dt-sc-one-third:not(.aligncenter) .blog-entry .entry-details { bottom: 7%; width: 90%; }
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-meta-group:nth-child(2), #primary.page-with-sidebar .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout .blog-entry > .entry-thumb + div { margin-top: 25px; }
+
+    
+/*--------------------------------------------------------------
+    Accents
+--------------------------------------------------------------*/
+
+    /* Primary */
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > .entry-tags { background-color: var(--DTPrimaryColor); }
+
+    .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout .blog-entry .entry-thumb, .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout.entry-right-thumb .blog-entry .entry-thumb, .dt-sc-overlay-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-thumb { border-color: var(--DTPrimaryColor); }	 
+
+
+/*--------------------------------------------------------------
+    Responsive
+--------------------------------------------------------------*/    
+
+    /*----*****---- << Tablet (Landscape) >> ----*****----*/
+
+    /* Note: Design for a width of 960px */ 
+    @media only screen and (min-width:1025px) and (max-width:1280px) {
+
+        .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout.dt-sc-one-third:not(.aligncenter) .blog-entry .entry-details { width: 90%; } 
+        .tpl-blog-holder .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout.dt-sc-one-third { width: 50%; }
+
+    }
+
+
+    /*----*****---- << Mobile (Landscape) >> ----*****----*/    
+
+    /* Common Styles for the devices below 767px width */
+    @media only screen and (max-width: 767px) {
+    
+       .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout .blog-entry .entry-thumb, .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout.entry-right-thumb .blog-entry .entry-thumb { border-style: solid; border-width: 0 0 4px 0; }
+       .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout.dt-sc-one-third:not(.aligncenter) .blog-entry .entry-details { bottom: 2%; width: 95%; } 
+       
+    }
+
+    /*----*****---- << Mobile - Portrait >> ----*****----*/
+
+    /* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+    
+        .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details { width: 85%; }
+        .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div { padding: 0; }
+    
+    }    
+    /*----*****---- << Tablet (Portrait) >> ----*****----*/ 
+
+    /* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:1024px) {
+
+        #primary.page-with-sidebar .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout .blog-entry .entry-thumb { border-style: solid; border-width: 0 0 4px 0; } 
+        .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout.dt-sc-one-third:not(.aligncenter) .blog-entry .entry-details { width: 90%; } 
+        
+    }
+
+    /*----*****---- << Mobile (Landscape) >> ----*****----*/    
+
+    /* Common Styles for the devices below 767px width */
+    @media only screen and (max-width: 767px) {
+    
+       .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout .blog-entry .entry-thumb, .dt-sc-overlay-style.dt-sc-post-entry.entry-list-layout.entry-right-thumb .blog-entry .entry-thumb { border-style: solid; border-width: 0 0 4px 0; }
+       .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout.dt-sc-one-third:not(.aligncenter) .blog-entry .entry-details { bottom: 2%; width: 95%; } 
+       
+    }
+
+    /*----*****---- << Mobile - Portrait >> ----*****----*/
+
+    /* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+    
+        .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details { width: 85%; }
+        .dt-sc-overlay-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div { padding: 0; }
+    
+    }    

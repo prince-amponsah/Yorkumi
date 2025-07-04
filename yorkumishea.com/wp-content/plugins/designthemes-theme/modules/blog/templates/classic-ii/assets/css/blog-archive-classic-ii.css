@@ -1,0 +1,65 @@
+
+/*----*****---- << Classic II Type Styles >> ----*****----*/
+
+    div[class*="entry-"].dt-sc-classic-ii-style.dt-sc-post-entry div.entry-meta-group > div { padding-right: 0; }
+
+    .dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry > div.entry-meta-group { border: none; margin-bottom: 0; padding-bottom: 0; padding-top: 10px; }
+    .dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry > div:not(.entry-thumb) { padding: 0; }
+    .dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry > div.entry-button:last-child { margin-top: 10px; }
+    .dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry > .entry-thumb + div.entry-meta-group { margin-top: 25px; }
+
+    .dt-sc-classic-ii-style.dt-sc-post-entry.dt-sc-post-entry .blog-entry.sticky > div:first-child:not(.entry-thumb) { margin-top: 35px; }
+
+    .dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry > div.entry-tags,.dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry > div.entry-categories { display: inline-block; float: none; margin-right: 10px; width: auto; }
+
+    .dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry > .entry-title h4 .sticky-post { height: 24px; padding: 2px 12px; right: 5px; top: 5px; width: auto; }
+    .dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry > .entry-title h4 .sticky-post > i[class*="fa"] { display: none; }
+    .dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry > .entry-title h4 .sticky-post > span { display: block; font-size: 14px; line-height: normal; }
+
+    .dt-sc-classic-ii-style.dt-sc-post-entry:not(.entry-grid-layout) .blog-entry { padding: 0 0 0 33%; }
+    .dt-sc-classic-ii-style.dt-sc-post-entry.entry-right-thumb:not(.entry-grid-layout) .blog-entry { padding: 0 33% 0 0; }
+
+    #primary.page-with-sidebar div[class*="dt-sc-"].dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry > div:not(.entry-thumb) { padding: 0; }
+
+    .dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry > .entry-body p { margin: 0; }
+    .dt-sc-classic-ii-style.dt-sc-post-entry:not(.entry-grid-layout) .blog-entry:not(.has-post-thumbnail) { padding: 0; }
+    .dt-sc-classic-ii-style.entry-grid-layout.dt-sc-post-entry .blog-entry > div:first-child:not(.entry-thumb) { margin-top: 35px; }
+    
+    .dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry div.entry-categories a:first-child:before, .dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry div.entry-tags a:first-child:before { color: var(--DTBodyTxtColor); content: ":"; display: inline; margin-left: 5px; margin-right: 5px; }
+
+
+/*--------------------------------------------------------------
+    Responsive
+--------------------------------------------------------------*/    
+
+    /*----*****---- << Tablet (Landscape) >> ----*****----*/
+
+    /* Note: Design for a width of 960px */ 
+    @media only screen and (min-width:1025px) and (max-width:1280px) {
+
+        #primary.page-with-sidebar div[class*="dt-sc-"].dt-sc-classic-ii-style.dt-sc-post-entry .blog-entry > div:not(.entry-thumb) { padding: 0; } 
+
+        #primary.page-with-sidebar .dt-sc-classic-ii-style.dt-sc-post-entry.entry-list-layout .blog-entry { padding: 0 0 0 43%; } 
+        #primary.page-with-sidebar .dt-sc-classic-ii-style.dt-sc-post-entry.entry-list-layout.entry-right-thumb .blog-entry { padding: 0 43% 0 0; }
+
+    }
+
+
+    /*----*****---- << Tablet (Portrait) >> ----*****----*/ 
+
+    /* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:1024px) {
+
+        div[class*="dt-sc-"].dt-sc-classic-ii-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div { padding: 0; } 
+        
+    }
+
+
+    /*----*****---- << Mobile (Landscape) >> ----*****----*/    
+
+    /* Common Styles for the devices below 767px width */
+    @media only screen and (max-width: 767px) {
+
+        .dt-sc-classic-ii-style.dt-sc-post-entry:not(.entry-grid-layout) .blog-entry, .dt-sc-classic-ii-style.dt-sc-post-entry.entry-right-thumb:not(.entry-grid-layout) .blog-entry { padding: 300px 0 0 0; }
+        
+    }

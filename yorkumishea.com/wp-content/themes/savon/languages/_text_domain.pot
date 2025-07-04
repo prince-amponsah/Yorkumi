@@ -1,0 +1,1769 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignThemes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-02 11:40+0530\n"
+"PO-Revision-Date: 2019-07-19 11:26+0530\n"
+"Last-Translator: Admin <admin@iamdesigning.com>\n"
+"Language-Team: DesignThemes <support@designthemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../functions.php:59
+msgid "Main Menu"
+msgstr ""
+
+#: ../modules/404/templates/404.php:12
+msgid "Oops!"
+msgstr ""
+
+#: ../modules/404/templates/404.php:14
+msgid "Page Not Found"
+msgstr ""
+
+#: ../modules/404/templates/404.php:18
+msgid "It seems you've ventured too far."
+msgstr ""
+
+#: ../modules/404/templates/404.php:20
+msgid "Back to Home"
+msgstr ""
+
+#: ../modules/blog/helper.php:171
+msgid "Read More"
+msgstr ""
+
+#: ../modules/blog/templates/boxed/parts/author.php:5
+msgid "By"
+msgstr ""
+
+#: ../modules/blog/templates/boxed/parts/author.php:7
+#: ../modules/post/templates/custom-classic/parts/author.php:6
+msgid "View all posts by "
+msgstr ""
+
+#: ../modules/blog/templates/boxed/parts/title.php:6
+#: ../modules/post/templates/post-extra/title.php:4
+#: ../modules/woocommerce/listings/includes/content-thumb.php:56
+#: ../modules/woocommerce/single/includes/labels.php:44
+msgid "Featured"
+msgstr ""
+
+#: ../modules/blog/templates/boxed/parts/title.php:7
+#: ../modules/blog/templates/post-format/post-image.php:14
+#: ../modules/blog/templates/post-format/post.php:14
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../modules/blog/templates/post.php:38
+msgid "Nothing Found."
+msgstr ""
+
+#: ../modules/blog/templates/post.php:39
+msgid "Apologies, but no results were found for the requested archive."
+msgstr ""
+
+#: ../modules/breadcrumb/helper.php:16
+msgid "Home"
+msgstr ""
+
+#: ../modules/breadcrumb/helper.php:32
+msgid "Search Result for"
+msgstr ""
+
+#: ../modules/breadcrumb/helper.php:64
+msgid "Search"
+msgstr ""
+
+#: ../modules/comments/templates/comments.php:5
+msgid "No Comments"
+msgstr ""
+
+#: ../modules/comments/templates/comments.php:5
+msgid "Comments ( 1 )"
+msgstr ""
+
+#: ../modules/comments/templates/comments.php:5
+msgid "Comments ( % )"
+msgstr ""
+
+#: ../modules/comments/templates/comments.php:19
+msgid "Comments are closed."
+msgstr ""
+
+#: ../modules/header/templates/header-content.php:20
+msgid "Menu"
+msgstr ""
+
+#: ../modules/pagination/helper.php:19
+#: ../modules/post/templates/post-extra/content.php:7
+msgid " Edit "
+msgstr ""
+
+#: ../modules/pagination/helper.php:60
+msgid "Load more"
+msgstr ""
+
+#: ../modules/pagination/templates/pagination-default.php:5
+msgid " Newer Posts"
+msgstr ""
+
+#: ../modules/pagination/templates/pagination-default.php:9
+msgid "Older Posts "
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:393
+#: ../modules/plugins/class-tgm-plugin-activation.php:912
+#: ../modules/plugins/class-tgm-plugin-activation.php:2618
+#: ../modules/plugins/class-tgm-plugin-activation.php:3667
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:394
+#: ../modules/plugins/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:1019
+#: ../modules/plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:3593
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:3595
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:3597
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:3599
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:3602
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:3604
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:3605
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../modules/plugins/class-tgm-plugin-activation.php:3607
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../modules/plugins/helper.php:10
+msgid "DesignThemes Framework"
+msgstr ""
+
+#: ../modules/plugins/helper.php:19
+msgid "DesignThemes Theme"
+msgstr ""
+
+#: ../modules/plugins/helper.php:28
+msgid "DesignThemes Shop"
+msgstr ""
+
+#: ../modules/plugins/helper.php:37
+msgid "DesignThemes Portfolio"
+msgstr ""
+
+#: ../modules/plugins/helper.php:46
+msgid "DesignThemes Twitter"
+msgstr ""
+
+#: ../modules/plugins/helper.php:55
+msgid "DesignThemes Flickr"
+msgstr ""
+
+#: ../modules/plugins/helper.php:64
+msgid "Elementor"
+msgstr ""
+
+#: ../modules/plugins/helper.php:69
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../modules/plugins/helper.php:74
+msgid "Unyson"
+msgstr ""
+
+#: ../modules/post/templates/custom-classic/index.php:24
+msgid "Classic"
+msgstr ""
+
+#: ../modules/post/templates/custom-classic/parts/author_bio.php:10
+msgid "Author"
+msgstr ""
+
+#: ../modules/post/templates/custom-classic/parts/comment.php:23
+msgid "Comments Off"
+msgstr ""
+
+#: ../modules/post/templates/post-extra/comment_box.php:14
+msgid "Put correct shortname from your Disqus account in Customizer settings."
+msgstr ""
+
+#: ../modules/post/templates/post-extra/navigation.php:22
+#: ../modules/post/templates/post-extra/navigation.php:38
+msgid "Previous Story"
+msgstr ""
+
+#: ../modules/post/templates/post-extra/navigation.php:26
+msgid "Previous Post"
+msgstr ""
+
+#: ../modules/post/templates/post-extra/navigation.php:40
+#: ../modules/post/templates/post-extra/navigation.php:80
+msgid "No story to show!"
+msgstr ""
+
+#: ../modules/post/templates/post-extra/navigation.php:62
+#: ../modules/post/templates/post-extra/navigation.php:78
+msgid "Next Story"
+msgstr ""
+
+#: ../modules/post/templates/post-extra/navigation.php:66
+msgid "Next Post"
+msgstr ""
+
+#: ../modules/woocommerce/helper.php:163 ../modules/woocommerce/helper.php:170
+#: ../modules/woocommerce/helper.php:195
+msgid "Shop"
+msgstr ""
+
+#: ../modules/woocommerce/listings/includes/content-thumb.php:77
+#: ../modules/woocommerce/single/includes/labels.php:35
+msgid "Sale"
+msgstr ""
+
+#: ../modules/woocommerce/listings/includes/content-thumb.php:79
+#: ../modules/woocommerce/single/includes/labels.php:37
+msgid "Sold Out"
+msgstr ""
+
+#: ../modules/woocommerce/listings/includes/content-thumb.php:85
+#: ../modules/woocommerce/single/includes/labels.php:50
+msgid "New"
+msgstr ""
+
+#: ../modules/woocommerce/listings/includes/utils.php:207
+#: ../modules/woocommerce/listings/includes/utils.php:258
+msgid "Add To Cart"
+msgstr ""
+
+#: ../modules/woocommerce/listings/includes/utils.php:259
+msgid "Add"
+msgstr ""
+
+#: ../modules/woocommerce/listings/includes/utils.php:260
+msgid "View Cart"
+msgstr ""
+
+#: ../modules/woocommerce/listings/includes/utils.php:284
+#: ../modules/woocommerce/listings/options/content-buttonelement-button/index.php:81
+#: ../modules/woocommerce/listings/options/content-buttonelement-secondary-button/index.php:82
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:91
+#: ../modules/woocommerce/listings/options/content-iconsgroup-icons/index.php:79
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-button/index.php:80
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-secondary-button/index.php:80
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:91
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-icons/index.php:79
+#: ../modules/woocommerce/listings/types/type1/index.php:163
+msgid "Wishlist"
+msgstr ""
+
+#: ../modules/woocommerce/listings/includes/utils.php:306
+#: ../modules/woocommerce/listings/options/content-buttonelement-button/index.php:83
+#: ../modules/woocommerce/listings/options/content-buttonelement-secondary-button/index.php:84
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:93
+#: ../modules/woocommerce/listings/options/content-iconsgroup-icons/index.php:81
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-button/index.php:82
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-secondary-button/index.php:82
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:93
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-icons/index.php:81
+#: ../modules/woocommerce/listings/types/type1/index.php:165
+msgid "Quick View"
+msgstr ""
+
+#: ../modules/woocommerce/listings/includes/utils.php:328
+#: ../modules/woocommerce/listings/includes/utils.php:336
+#: ../modules/woocommerce/listings/options/content-buttonelement-button/index.php:82
+#: ../modules/woocommerce/listings/options/content-buttonelement-secondary-button/index.php:83
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:92
+#: ../modules/woocommerce/listings/options/content-iconsgroup-icons/index.php:80
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-button/index.php:81
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-secondary-button/index.php:81
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:92
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-icons/index.php:80
+#: ../modules/woocommerce/listings/types/type1/index.php:164
+msgid "Compare"
+msgstr ""
+
+#: ../modules/woocommerce/listings/includes/utils.php:378
+#, php-format
+msgid "Get %1$s off"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/background-bgcolor/index.php:37
+msgid "Background - Background Color"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/background-dark-bgcolor/index.php:37
+msgid "Background - Dark Background"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/border-position/index.php:37
+msgid "Border Position"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/border-position/index.php:78
+#: ../modules/woocommerce/listings/options/border-type/index.php:78
+#: ../modules/woocommerce/listings/options/bordershadow-highlight/index.php:79
+#: ../modules/woocommerce/listings/options/padding/index.php:78
+#: ../modules/woocommerce/listings/options/shadow-position/index.php:78
+#: ../modules/woocommerce/listings/options/shadow-type/index.php:78
+#: ../modules/woocommerce/listings/options/style/index.php:89
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:81
+#: ../modules/woocommerce/listings/types/default/index.php:36
+msgid "Default"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/border-position/index.php:79
+#: ../modules/woocommerce/listings/options/content-alignment/index.php:78
+msgid "Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/border-position/index.php:80
+#: ../modules/woocommerce/listings/options/content-alignment/index.php:80
+msgid "Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/border-position/index.php:81
+#: ../modules/woocommerce/listings/options/thumb-alignment/index.php:78
+msgid "Top"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/border-position/index.php:82
+#: ../modules/woocommerce/listings/options/thumb-alignment/index.php:82
+msgid "Bottom"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/border-position/index.php:83
+#: ../modules/woocommerce/listings/options/shadow-position/index.php:79
+#: ../modules/woocommerce/listings/options/thumb-alignment/index.php:79
+msgid "Top Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/border-position/index.php:84
+#: ../modules/woocommerce/listings/options/shadow-position/index.php:80
+#: ../modules/woocommerce/listings/options/thumb-alignment/index.php:80
+msgid "Top Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/border-position/index.php:85
+#: ../modules/woocommerce/listings/options/shadow-position/index.php:81
+#: ../modules/woocommerce/listings/options/thumb-alignment/index.php:83
+msgid "Bottom Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/border-position/index.php:86
+#: ../modules/woocommerce/listings/options/shadow-position/index.php:82
+#: ../modules/woocommerce/listings/options/thumb-alignment/index.php:84
+msgid "Bottom Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/border-type/index.php:37
+msgid "Border Type"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/border-type/index.php:79
+#: ../modules/woocommerce/listings/options/padding/index.php:80
+#: ../modules/woocommerce/listings/options/shadow-type/index.php:79
+#: ../modules/woocommerce/listings/options/show-offer-percentage/index.php:79
+msgid "Thumb"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/borderorshadow/index.php:37
+msgid "Border or Shadow"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/borderorshadow/index.php:78
+#: ../modules/woocommerce/listings/options/bordershadow-highlight/index.php:78
+#: ../modules/woocommerce/listings/options/content-buttonelement-button/index.php:78
+#: ../modules/woocommerce/listings/options/content-buttonelement-secondary-button/index.php:79
+#: ../modules/woocommerce/listings/options/content-hover-effect/index.php:78
+#: ../modules/woocommerce/listings/options/hover-image-effect/index.php:78
+#: ../modules/woocommerce/listings/options/hover-style/index.php:83
+#: ../modules/woocommerce/listings/options/icongroup-hover-effect/index.php:78
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:92
+#: ../modules/woocommerce/listings/options/show-offer-percentage/index.php:78
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-button/index.php:78
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-secondary-button/index.php:78
+msgid "None"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/borderorshadow/index.php:79
+msgid "Border"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/borderorshadow/index.php:80
+msgid "Shadow"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/borderorshadow/index.php:83
+msgid "Choose either Border or Shadow for your product listing."
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/bordershadow-highlight/index.php:37
+msgid "Border / Shadow - Highlight"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/bordershadow-highlight/index.php:80
+msgid "On Hover"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-alignment/index.php:37
+#: ../modules/woocommerce/listings/options/thumb-alignment/index.php:37
+msgid "Alignment"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-alignment/index.php:79
+msgid "Center"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-button/index.php:37
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-button/index.php:37
+msgid "Button Element - Button"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-button/index.php:79
+#: ../modules/woocommerce/listings/options/content-buttonelement-secondary-button/index.php:80
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:90
+#: ../modules/woocommerce/listings/options/content-iconsgroup-icons/index.php:78
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-button/index.php:79
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-secondary-button/index.php:79
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:90
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-icons/index.php:78
+#: ../modules/woocommerce/listings/types/type1/index.php:157
+msgid "Cart"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-button/index.php:80
+#: ../modules/woocommerce/listings/options/content-buttonelement-secondary-button/index.php:81
+msgid "Cart With Quantity"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-secondary-button/index.php:37
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-secondary-button/index.php:37
+msgid "Button Element - Secondary Button"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-stretch/index.php:37
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-stretch/index.php:37
+msgid "Button Element - Stretch"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-stretch/index.php:78
+#: ../modules/woocommerce/listings/options/show-custom-type/index.php:79
+#: ../modules/woocommerce/listings/options/show-label/index.php:79
+#: ../modules/woocommerce/listings/options/space/index.php:78
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-stretch/index.php:78
+msgid "False"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-stretch/index.php:79
+#: ../modules/woocommerce/listings/options/show-custom-type/index.php:78
+#: ../modules/woocommerce/listings/options/show-label/index.php:78
+#: ../modules/woocommerce/listings/options/space/index.php:79
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-stretch/index.php:79
+msgid "True"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:37
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:37
+msgid "Button Element - Style"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:78
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:78
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:78
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:78
+msgid "Simple"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:79
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:79
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:79
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:79
+msgid "Background Fill Square"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:80
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:80
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:80
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:80
+msgid "Background Fill Rounded Square"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:81
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:81
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:81
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:81
+msgid "Background Fill Rounded"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:82
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:82
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:82
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:82
+msgid "Border Fill Square"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:83
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:83
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:83
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:83
+msgid "Border Fill Rounded Square"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:84
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:84
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:84
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:84
+msgid "Border Fill Rounded"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:85
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:85
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:85
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:85
+msgid "Skin Background Fill Square"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:86
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:86
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:86
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:86
+msgid "Skin Background Fill Rounded Square"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:87
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:87
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:87
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:87
+msgid "Skin Background Fill Rounded"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:88
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:88
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:88
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:88
+msgid "Skin Border Fill Square"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:89
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:89
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:89
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:89
+msgid "Skin Border Fill Rounded Square"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-buttonelement-style/index.php:90
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:90
+#: ../modules/woocommerce/listings/options/thumb-buttonelement-style/index.php:90
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:90
+msgid "Skin Border Fill Rounded"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-content/index.php:41
+msgid "Content Elements"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-content/index.php:86
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:86
+#: ../modules/woocommerce/listings/options/thumb-content/index.php:90
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:86
+#: ../modules/woocommerce/listings/types/default/index.php:126
+#: ../modules/woocommerce/listings/types/default/index.php:146
+#: ../modules/woocommerce/listings/types/type1/index.php:120
+#: ../modules/woocommerce/listings/types/type1/index.php:139
+#: ../modules/woocommerce/listings/types/type1/index.php:161
+msgid "Title"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-content/index.php:87
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:94
+#: ../modules/woocommerce/listings/options/thumb-content/index.php:91
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:94
+#: ../modules/woocommerce/listings/types/default/index.php:127
+#: ../modules/woocommerce/listings/types/default/index.php:156
+#: ../modules/woocommerce/listings/types/type1/index.php:121
+#: ../modules/woocommerce/listings/types/type1/index.php:143
+#: ../modules/woocommerce/listings/types/type1/index.php:158
+msgid "Category"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-content/index.php:88
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:87
+#: ../modules/woocommerce/listings/options/thumb-content/index.php:92
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:87
+#: ../modules/woocommerce/listings/types/default/index.php:128
+#: ../modules/woocommerce/listings/types/default/index.php:148
+#: ../modules/woocommerce/listings/types/type1/index.php:122
+#: ../modules/woocommerce/listings/types/type1/index.php:140
+#: ../modules/woocommerce/listings/types/type1/index.php:162
+msgid "Price"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-content/index.php:89
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:95
+#: ../modules/woocommerce/listings/options/thumb-content/index.php:93
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:95
+#: ../modules/woocommerce/listings/types/default/index.php:129
+#: ../modules/woocommerce/listings/types/default/index.php:157
+#: ../modules/woocommerce/listings/types/type1/index.php:125
+#: ../modules/woocommerce/listings/types/type1/index.php:144
+#: ../modules/woocommerce/listings/types/type1/index.php:166
+msgid "Button Element"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-content/index.php:90
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:96
+#: ../modules/woocommerce/listings/options/thumb-content/index.php:94
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:96
+#: ../modules/woocommerce/listings/types/default/index.php:123
+#: ../modules/woocommerce/listings/types/type1/index.php:126
+#: ../modules/woocommerce/listings/types/type1/index.php:145
+#: ../modules/woocommerce/listings/types/type1/index.php:167
+msgid "Icons Group"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-content/index.php:93
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:97
+#: ../modules/woocommerce/listings/options/thumb-content/index.php:97
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:97
+#: ../modules/woocommerce/listings/types/default/index.php:130
+#: ../modules/woocommerce/listings/types/default/index.php:151
+#: ../modules/woocommerce/listings/types/type1/index.php:127
+#: ../modules/woocommerce/listings/types/type1/index.php:146
+#: ../modules/woocommerce/listings/types/type1/index.php:168
+msgid "Excerpt"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-content/index.php:94
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:98
+#: ../modules/woocommerce/listings/options/thumb-content/index.php:98
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:98
+#: ../modules/woocommerce/listings/types/default/index.php:131
+#: ../modules/woocommerce/listings/types/default/index.php:147
+#: ../modules/woocommerce/listings/types/type1/index.php:128
+#: ../modules/woocommerce/listings/types/type1/index.php:147
+#: ../modules/woocommerce/listings/types/type1/index.php:169
+msgid "Rating"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-content/index.php:95
+#: ../modules/woocommerce/listings/options/thumb-content/index.php:99
+#: ../modules/woocommerce/listings/types/default/index.php:132
+#: ../modules/woocommerce/listings/types/default/index.php:152
+#: ../modules/woocommerce/listings/types/type1/index.php:129
+#: ../modules/woocommerce/listings/types/type1/index.php:148
+msgid "Count Down"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-content/index.php:96
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:99
+#: ../modules/woocommerce/listings/options/thumb-content/index.php:100
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:99
+#: ../modules/woocommerce/listings/types/default/index.php:133
+#: ../modules/woocommerce/listings/types/default/index.php:153
+#: ../modules/woocommerce/listings/types/type1/index.php:130
+#: ../modules/woocommerce/listings/types/type1/index.php:149
+#: ../modules/woocommerce/listings/types/type1/index.php:170
+msgid "Separator"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-content/index.php:97
+#: ../modules/woocommerce/listings/options/thumb-content/index.php:101
+#: ../modules/woocommerce/listings/types/default/index.php:134
+#: ../modules/woocommerce/listings/types/default/index.php:154
+#: ../modules/woocommerce/listings/types/type1/index.php:131
+#: ../modules/woocommerce/listings/types/type1/index.php:150
+msgid "Element Group"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-content/index.php:98
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:100
+#: ../modules/woocommerce/listings/options/thumb-content/index.php:102
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:100
+#: ../modules/woocommerce/listings/types/default/index.php:135
+#: ../modules/woocommerce/listings/types/default/index.php:155
+#: ../modules/woocommerce/listings/types/type1/index.php:132
+#: ../modules/woocommerce/listings/types/type1/index.php:151
+#: ../modules/woocommerce/listings/types/type1/index.php:171
+msgid "Swatches"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-content/index.php:99
+#: ../modules/woocommerce/listings/types/type1/index.php:152
+msgid "Product Notes"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:41
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:41
+msgid "Element Group Content"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:103
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:103
+msgid "Active Elements"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-element-group/index.php:104
+#: ../modules/woocommerce/listings/options/thumb-element-group/index.php:104
+msgid "Deatcive Elements"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-enable/index.php:37
+msgid "Enable Content Section"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-enable/index.php:38
+msgid "YES! to enable content section."
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-hover-effect/index.php:37
+msgid "Content Hover Effect"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-hover-effect/index.php:79
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:78
+msgid "Fade"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-hover-effect/index.php:80
+msgid "Zoom"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-hover-effect/index.php:81
+msgid "Slide Default"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-hover-effect/index.php:82
+msgid "Slide From Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-hover-effect/index.php:83
+msgid "Slide From Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-hover-effect/index.php:84
+msgid "Slide From Top"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-hover-effect/index.php:85
+msgid "Slide From Bottom"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-iconsgroup-icons/index.php:37
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-icons/index.php:37
+msgid "Icons Group - Icons"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/content-iconsgroup-style/index.php:37
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-style/index.php:37
+msgid "Icons Group - Style"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/custom-class/index.php:37
+msgid "Custom Class"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/display-type-list-option/index.php:37
+msgid "List Option"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/display-type-list-option/index.php:78
+#: ../modules/woocommerce/listings/sorter/index.php:332
+msgid "Left Thumb"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/display-type-list-option/index.php:79
+#: ../modules/woocommerce/listings/sorter/index.php:333
+msgid "Right Thumb"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/display-type/index.php:37
+msgid "Display Type"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/display-type/index.php:78
+#: ../modules/woocommerce/listings/sorter/index.php:364
+msgid "Grid"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/display-type/index.php:79
+#: ../modules/woocommerce/listings/sorter/index.php:365
+msgid "List"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-image-effect/index.php:37
+msgid "Image Effect"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-image-effect/index.php:79
+msgid "Blur"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-image-effect/index.php:80
+msgid "Black & White"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-image-effect/index.php:81
+msgid "Fade In Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-image-effect/index.php:82
+msgid "Fade In Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-image-effect/index.php:83
+msgid "Rotate"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-image-effect/index.php:84
+msgid "Rotate - Alt"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-image-effect/index.php:85
+msgid "Scale In"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-image-effect/index.php:86
+msgid "Scale Out"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-image-effect/index.php:87
+msgid "Float Up"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:37
+msgid "Hover Secondary Image Effect"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:79
+msgid "Zoom In"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:80
+msgid "Zoom Out"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:81
+msgid "Zoom Out Up"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:82
+msgid "Zoom Out Down"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:83
+msgid "Zoom Out Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:84
+msgid "Zoom Out Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:85
+msgid "Push Up"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:86
+msgid "Push Down"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:87
+msgid "Push Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:88
+msgid "Push Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:89
+msgid "Slide Up"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:90
+msgid "Slide Down"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:91
+msgid "Slide Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:92
+msgid "Slide Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:93
+msgid "Hinge Up"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:94
+msgid "Hinge Down"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:95
+msgid "Hinge Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:96
+msgid "Hinge Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:97
+msgid "Fold Up"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:98
+msgid "Fold Down"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:99
+msgid "Fold Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:100
+msgid "Fold Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:101
+msgid "Flip Horizontal"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-secondary-image-effect/index.php:102
+msgid "Flip Vertical"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-style/index.php:41
+msgid "Hover Style"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-style/index.php:84
+msgid "Fade - Border"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-style/index.php:85
+msgid "Fade - Skin Border"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-style/index.php:86
+msgid "Fade - Gradient Border"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-style/index.php:87
+msgid "Fade - Shadow"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-style/index.php:88
+msgid "Fade - InShadow"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-style/index.php:89
+msgid "Fade Thumb Border"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-style/index.php:90
+msgid "Fade Thumb SkinBorder"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-style/index.php:91
+msgid "Fade Thumb Gradient Border"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-style/index.php:92
+msgid "Fade Thumb Shadow"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/hover-style/index.php:93
+msgid "Fade Thumb InShadow"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/icongroup-hover-effect/index.php:37
+msgid "Icon Group Hover Effect"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/icongroup-hover-effect/index.php:79
+msgid "Flip X"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/icongroup-hover-effect/index.php:80
+msgid "Flip Y"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/icongroup-hover-effect/index.php:81
+msgid "Bounce"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/label-design/index.php:37
+msgid "Product Label Design"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/label-design/index.php:78
+msgid "Boxed"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/label-design/index.php:79
+msgid "Circle"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/label-design/index.php:80
+msgid "Rounded"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/label-design/index.php:81
+msgid "Angular"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/label-design/index.php:82
+msgid "Ribbon"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-bgcolor/index.php:41
+msgid "Overlay - Background Color"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-dark-bgcolor/index.php:37
+msgid "Overlay Dark Background"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:41
+msgid "Overlay Effect"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:93
+msgid "Fixed"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:94
+msgid "Top to Bottom"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:95
+msgid "Bottom to Top"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:96
+msgid "Right to Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:97
+msgid "Left to Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:98
+#: ../modules/woocommerce/listings/options/thumb-alignment/index.php:81
+msgid "Middle"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:99
+msgid "Middle Radial"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:100
+msgid "Gradient - Top to Bottom"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:101
+msgid "Gradient - Bottom to Top"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:102
+msgid "Gradient - Right to Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:103
+msgid "Gradient - Left to Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:104
+msgid "Gradient - Radial"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:105
+msgid "Flash"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:106
+msgid "Scale"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:107
+msgid "Horizontal - Elastic"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/overlay-effect/index.php:108
+msgid "Vertical - Elastic"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/padding/index.php:37
+msgid "Padding"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/padding/index.php:79
+msgid "Product"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/padding/index.php:81
+#: ../modules/woocommerce/listings/options/show-offer-percentage/index.php:80
+msgid "Content"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/shadow-position/index.php:37
+msgid "Shadow Position"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/shadow-type/index.php:37
+msgid "Shadow Type"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/show-custom-type/index.php:37
+msgid "Show Custom Product Type"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/show-label/index.php:37
+msgid "Show Product Label"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/show-offer-percentage/index.php:37
+msgid "Show Product Offer Percentage"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/space/index.php:37
+msgid "Space"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/style/index.php:37
+msgid "Product Style"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/style/index.php:90
+msgid "Cornered"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/style/index.php:91
+msgid "Title & Element Group Highlighter"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/style/index.php:92
+msgid "Content Highlighter"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/style/index.php:93
+msgid "Element Group Overlap Product Content"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/style/index.php:94
+msgid "Element Group Reveal Product Content"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/style/index.php:95
+msgid "Icon Group over Product Content"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/style/index.php:96
+msgid "Element Group over Product Content"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-content/index.php:41
+msgid "Thumb Content"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:37
+msgid "Icons Group - Position"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:83
+msgid "Horizontal Top"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:84
+msgid "Horizontal Top Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:85
+msgid "Horizontal Top Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:86
+msgid "Horizontal Middle"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:87
+msgid "Horizontal Bottom"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:88
+msgid "Horizontal Bottom Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:89
+msgid "Horizontal Bottom Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:91
+msgid "Vertical Top Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:92
+msgid "Vertical Top Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:93
+msgid "Vertical Middle Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:94
+msgid "Vertical Middle Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:95
+msgid "Vertical Bottom Left"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-iconsgroup-position/index.php:96
+msgid "Vertical Bottom Right"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-secondary-image-onhover/index.php:39
+msgid "Show Secondary Image On Hover"
+msgstr ""
+
+#: ../modules/woocommerce/listings/options/thumb-secondary-image-onhover/index.php:40
+msgid ""
+"YES! to show secondary image on product hover. First image in the gallery "
+"will be used as secondary image."
+msgstr ""
+
+#: ../modules/woocommerce/listings/sorter/index.php:312
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:136
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:273
+msgid "1"
+msgstr ""
+
+#: ../modules/woocommerce/listings/sorter/index.php:313
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:137
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:274
+msgid "2"
+msgstr ""
+
+#: ../modules/woocommerce/listings/sorter/index.php:314
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:138
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:275
+msgid "3"
+msgstr ""
+
+#: ../modules/woocommerce/listings/sorter/index.php:315
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:139
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:276
+msgid "4"
+msgstr ""
+
+#: ../modules/woocommerce/listings/types/default/index.php:91
+#: ../modules/woocommerce/listings/types/type1/index.php:91
+#, php-format
+msgid "Product Templates - %1$s"
+msgstr ""
+
+#: ../modules/woocommerce/listings/types/default/index.php:92
+#: ../modules/woocommerce/listings/types/type1/index.php:92
+msgid "Add New"
+msgstr ""
+
+#: ../modules/woocommerce/listings/types/default/index.php:93
+#: ../modules/woocommerce/listings/types/type1/index.php:93
+msgid "Add New Template"
+msgstr ""
+
+#: ../modules/woocommerce/listings/types/type1/index.php:36
+msgid "Type 1"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:54
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:42
+msgid "Show Upsell Products"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:57
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:194
+msgid "Yes"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:58
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:195
+msgid "No"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:78
+msgid "Upsell Title"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:95
+msgid "Upsell Column"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:99
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:236
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:63
+msgid "One Column"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:103
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:240
+msgid "One Half Column"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:107
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:244
+msgid "One Third Column"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:111
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:248
+msgid "One Fourth Column"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:133
+msgid "Upsell Limit"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:140
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:277
+msgid "5"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:141
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:278
+msgid "6"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:142
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:279
+msgid "7"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:143
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:280
+msgid "8"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:144
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:281
+msgid "9"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:145
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:282
+msgid "10"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:165
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:302
+msgid "Product Style Template"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:191
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:97
+msgid "Show Related Products"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:215
+msgid "Related Title"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:232
+msgid "Related Column"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/customizer/index.php:270
+msgid "Related Limit"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:47
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:62
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:78
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:102
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:117
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:132
+msgid "Admin Option"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:48
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:103
+msgid "Show"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:49
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:104
+msgid "Hide"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:58
+msgid "Choose Upsell Column"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:64
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:118
+msgid "Two Columns"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:65
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:119
+msgid "Three Columns"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:66
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:120
+msgid "Four Columns"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:74
+msgid "Choose Upsell Limit"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:79
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:133
+msgid "One"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:80
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:134
+msgid "Two"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:81
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:135
+msgid "Three"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:82
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:136
+msgid "Four"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:83
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:137
+msgid "Five"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:84
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:138
+msgid "Six"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:85
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:139
+msgid "Seven"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:86
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:140
+msgid "Eight"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:87
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:141
+msgid "Nine"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:88
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:142
+msgid "Ten"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:113
+msgid "Choose Related Column"
+msgstr ""
+
+#: ../modules/woocommerce/single/modules/upsell-and-related/metabox/index.php:128
+msgid "Choose Related Limit"
+msgstr ""
+
+#: ../searchform.php:1
+msgid "Enter Keyword"
+msgstr ""
+
+#: ../searchform.php:7
+msgid "Go"
+msgstr ""

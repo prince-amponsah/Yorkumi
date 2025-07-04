@@ -1,0 +1,10 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-hover-image-scaleout li.product:not(.product-with-secondary-image):hover .product-thumb .image .primary-image { width: 100%; -webkit-transform: scale(1.2); transform: scale(1.2); }
+
+    .woocommerce ul.products.product-hover-image-scaleout li.product:not(.product-with-secondary-image) .product-thumb .image .primary-image { width: 100%; -webkit-transform: scale(1); transform: scale(1); }
+
+/* #endregion - Product Image Hover Effects */    

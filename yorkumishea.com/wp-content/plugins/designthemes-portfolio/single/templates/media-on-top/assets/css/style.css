@@ -1,0 +1,28 @@
+.dtportfolio-single-mediaontop-section-holder {
+    position: relative;
+    margin-bottom: 25px;
+    z-index: 1;
+}
+
+.dtportfolio-single-mediaontop-section {
+    float: left;
+}
+.dtportfolio-single-mediaontop-section {
+    width: 100%;
+    height: 100%;
+}
+
+.dtportfolio-single-mediaontop-item {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.single-portfolio-mediaontop-video-holder, .single-portfolio-mediaontop-video-holder video, .single-portfolio-mediaontop-video-holder video source { float:left; width:100%; position:relative; height:100%; }
+
+.dtportfolio-single-mediaontop-section { width: 100%; height: 100%; }
+	
+.dtportfolio-single-mediaontop-section video, .dtportfolio-single-mediaontop-section video source { width: 100% !important; height: 100% !important; object-fit: initial; }
+.dtportfolio-single-mediaontop-item { width: 100%; height: 100%; background-position: center; background-size: cover; background-repeat: no-repeat;  }

@@ -1,0 +1,582 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignThemes Framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-10 14:17+0530\n"
+"PO-Revision-Date: 2019-07-19 11:26+0530\n"
+"Last-Translator: Admin <admin@iamdesigning.com>\n"
+"Language-Team: DesignThemes <support@designthemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../cs-framework-override/fields/gallery/gallery.php:21
+#: ../cs-framework/fields/gallery/gallery.php:21
+msgid "Add Gallery"
+msgstr ""
+
+#: ../cs-framework-override/fields/gallery/gallery.php:22
+#: ../cs-framework/fields/gallery/gallery.php:22
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../cs-framework-override/fields/gallery/gallery.php:23
+#: ../cs-framework/fields/gallery/gallery.php:23
+#: ../customizer/assets/js/wp-color-picker-alpha.js:129
+msgid "Clear"
+msgstr ""
+
+#: ../cs-framework-override/fields/gallery/gallery.php:40
+#: ../cs-framework/fields/gallery/gallery.php:34
+msgid "Image"
+msgstr ""
+
+#: ../cs-framework-override/fields/group/group.php:22
+#: ../cs-framework/fields/group/group.php:22
+msgid "Adding"
+msgstr ""
+
+#: ../cs-framework-override/fields/group/group.php:48
+#: ../cs-framework-override/fields/group/group.php:82
+#: ../cs-framework/fields/group/group.php:45
+#: ../cs-framework/fields/group/group.php:77
+#: ../customizer/controls/background/class-control-background.php:112
+#: ../customizer/controls/upload/class-control-upload.php:98
+msgid "Remove"
+msgstr ""
+
+#: ../cs-framework/classes/framework.class.php:171
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: ../cs-framework/classes/framework.class.php:176
+msgid "Default options restored."
+msgstr ""
+
+#: ../cs-framework/classes/framework.class.php:195
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: ../cs-framework/classes/framework.class.php:335
+msgid "Settings saved."
+msgstr ""
+
+#: ../cs-framework/classes/framework.class.php:338
+msgid "Save"
+msgstr ""
+
+#: ../cs-framework/classes/framework.class.php:338
+msgid "Saving..."
+msgstr ""
+
+#: ../cs-framework/classes/framework.class.php:339
+msgid "Restore"
+msgstr ""
+
+#: ../cs-framework/classes/framework.class.php:342
+#: ../cs-framework/fields/backup/backup.php:29
+msgid "Reset All Options"
+msgstr ""
+
+#: ../cs-framework/classes/framework.class.php:346
+msgid "show all options"
+msgstr ""
+
+#: ../cs-framework/classes/options.class.php:125
+msgid "CONFIG"
+msgstr ""
+
+#: ../cs-framework/classes/options.class.php:131
+#: ../cs-framework/classes/options.class.php:151
+msgid "USAGE"
+msgstr ""
+
+#: ../cs-framework/classes/options.class.php:137
+msgid "VALUE"
+msgstr ""
+
+#: ../cs-framework/classes/options.class.php:155
+msgid "ID"
+msgstr ""
+
+#: ../cs-framework/classes/options.class.php:227
+#, php-format
+msgid "You are editing language: ( %s )"
+msgstr ""
+
+#: ../cs-framework/classes/shortcode.class.php:82
+#: ../cs-framework/classes/shortcode.class.php:90
+#: ../cs-framework/fields/textarea/textarea.php:29
+msgid "Add Shortcode"
+msgstr ""
+
+#: ../cs-framework/classes/shortcode.class.php:92
+msgid "Select a shortcode"
+msgstr ""
+
+#: ../cs-framework/classes/shortcode.class.php:108
+msgid "Insert Shortcode"
+msgstr ""
+
+#: ../cs-framework/fields/background/background.php:34
+#: ../cs-framework/fields/background/background.php:35
+#: ../cs-framework/fields/upload/upload.php:24
+#: ../cs-framework/fields/upload/upload.php:25
+msgid "Upload"
+msgstr ""
+
+#: ../cs-framework/fields/background/background.php:36
+#: ../cs-framework/fields/upload/upload.php:26
+msgid "Use Image"
+msgstr ""
+
+#: ../cs-framework/fields/backup/backup.php:21
+msgid "Import a Backup"
+msgstr ""
+
+#: ../cs-framework/fields/backup/backup.php:22
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: ../cs-framework/fields/backup/backup.php:27
+msgid "Export and Download Backup"
+msgstr ""
+
+#: ../cs-framework/fields/backup/backup.php:28
+msgid "or"
+msgstr ""
+
+#: ../cs-framework/fields/backup/backup.php:30
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: ../cs-framework/fields/icon/icon.php:25
+#: ../cs-framework/functions/actions.php:82
+msgid "Add Icon"
+msgstr ""
+
+#: ../cs-framework/fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr ""
+
+#: ../cs-framework/fields/image/image.php:22
+msgid "Add Image"
+msgstr ""
+
+#: ../cs-framework/fields/image/image.php:30
+msgid "preview"
+msgstr ""
+
+#: ../cs-framework/fields/sorter/sorter.php:24
+msgid "Enabled Modules"
+msgstr ""
+
+#: ../cs-framework/fields/sorter/sorter.php:25
+msgid "Disabled Modules"
+msgstr ""
+
+#: ../cs-framework/fields/switcher/switcher.php:20
+msgid "on"
+msgstr ""
+
+#: ../cs-framework/fields/switcher/switcher.php:20
+msgid "off"
+msgstr ""
+
+#: ../cs-framework/fields/typography/typography.php:73
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: ../cs-framework/fields/typography/typography.php:79
+msgid "Google Fonts"
+msgstr ""
+
+#: ../cs-framework/fields/typography/typography.php:107
+#: ../cs-framework/functions/actions.php:32
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: ../cs-framework/functions/actions.php:83
+msgid "Search a Icon..."
+msgstr ""
+
+#: ../cs-framework/functions/actions.php:84
+msgid "Loading..."
+msgstr ""
+
+#: ../cs-framework/functions/helpers.php:49
+msgid "This field class is not available!"
+msgstr ""
+
+#: ../cs-framework/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: ../cs-framework/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: ../cs-framework/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: ../customizer/assets/js/wp-color-picker-alpha.js:92
+msgid "Color value"
+msgstr ""
+
+#: ../customizer/assets/js/wp-color-picker-alpha.js:113
+msgid "Select Color"
+msgstr ""
+
+#: ../customizer/assets/js/wp-color-picker-alpha.js:124
+#: ../customizer/controls/typography/class-control-typography.php:40
+msgid "Default"
+msgstr ""
+
+#: ../customizer/assets/js/wp-color-picker-alpha.js:125
+msgid "Select default color"
+msgstr ""
+
+#: ../customizer/assets/js/wp-color-picker-alpha.js:130
+msgid "Clear color"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:24
+msgid "No file selected"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:25
+#: ../customizer/controls/background/class-control-background.php:118
+msgid "Less Settings"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:26
+#: ../customizer/controls/background/class-control-background.php:123
+msgid "More Settings"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:97
+msgid "Background Color"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:103
+msgid "Background Image"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:108
+msgid "No File Selected"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:114
+#: ../customizer/controls/upload/class-control-upload.php:100
+msgid "Select File"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:135
+msgid "No Repeat"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:138
+msgid "Repeat All"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:141
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:144
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:153
+msgid "Left Top"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:156
+msgid "Left Center"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:159
+msgid "Left Bottom"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:162
+msgid "Right Top"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:165
+msgid "Right Center"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:168
+msgid "Right Bottom"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:171
+msgid "Center Top"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:174
+msgid "Center Center"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:177
+msgid "Center Bottom"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:184
+msgid "Background Size"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:188
+msgid "Cover"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:192
+msgid "Contain"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:196
+msgid "Auto"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:206
+#: ../customizer/controls/typography/class-control-typography.php:27
+#: ../customizer/controls/typography/class-control-typography.php:354
+#: ../customizer/controls/typography/class-control-typography.php:404
+#: ../customizer/controls/typography/class-control-typography.php:419
+#: ../customizer/controls/typography/class-control-typography.php:437
+#: ../customizer/controls/typography/class-control-typography.php:455
+#: ../customizer/controls/typography/class-control-typography.php:471
+msgid "Inherit"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:209
+msgid "Scroll"
+msgstr ""
+
+#: ../customizer/controls/background/class-control-background.php:212
+msgid "Fixed"
+msgstr ""
+
+#: ../customizer/controls/fontawesome/class-control-fontawesome.php:1159
+msgid "Reset"
+msgstr ""
+
+#: ../customizer/controls/switch/class-control-switch.php:93
+msgid "On"
+msgstr ""
+
+#: ../customizer/controls/switch/class-control-switch.php:97
+msgid "Off"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:28
+msgid "Thin 100"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:29
+msgid "Extra-Light 200"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:30
+msgid "Light 300"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:31
+msgid "Normal 400"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:32
+msgid "Medium 500"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:33
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:34
+msgid "Bold 700"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:35
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:36
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:37
+#: ../customizer/controls/typography/class-control-typography.php:38
+#: ../customizer/controls/typography/class-control-typography.php:416
+msgid "Normal"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:39
+msgid "Bold"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:228
+msgid "Font Family"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:229
+msgid "Font Weight"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:230
+msgid "Text Transform"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:231
+msgid "Text Align"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:232
+msgid "Text Decoration"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:233
+msgid "Font Style"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:234
+msgid "Font Size"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:235
+msgid "Line Height"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:236
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:355
+msgid "Other System Fonts"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:368
+msgid "Custom Fonts"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:381
+msgid "Google"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:417
+msgid "Italic"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:418
+msgid "Oblique"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:432
+#: ../customizer/controls/typography/class-control-typography.php:467
+msgid "None"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:433
+msgid "Capitalize"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:434
+msgid "Uppercase"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:435
+msgid "Lowercase"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:436
+msgid "Initial"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:450
+msgid "Unset"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:451
+msgid "Left"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:452
+msgid "Center"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:453
+msgid "Right"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:454
+msgid "Justify"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:468
+msgid "Underline"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:469
+msgid "Overline"
+msgstr ""
+
+#: ../customizer/controls/typography/class-control-typography.php:470
+msgid "Line Through"
+msgstr ""
+
+#: ../customizer/customizer.php:51
+msgid "Enter desktop preview mode"
+msgstr ""
+
+#: ../customizer/customizer.php:55
+msgid "Enter tablet landscape preview mode"
+msgstr ""
+
+#: ../customizer/customizer.php:58
+msgid "Enter tablet preview mode"
+msgstr ""
+
+#: ../customizer/customizer.php:61
+msgid "Enter mobile preview mode"
+msgstr ""
+
+#: ../designthemes-framework.php:53
+msgid "DT Settings"
+msgstr ""
+
+#: ../designthemes-framework.php:58
+msgid "Designthemes"
+msgstr ""
+
+#: ../widget-area/widget-area.php:47 ../widget-area/widget-area.php:58
+msgid "Create Widget Area"
+msgstr ""
+
+#: ../widget-area/widget-area.php:54
+msgid "Name"
+msgstr ""
+
+#: ../widget-area/widget-area.php:73
+msgid "Delete"
+msgstr ""
+
+#: ../widget-area/widget-area.php:74
+msgid "Confirm"
+msgstr ""
+
+#: ../widget-area/widget-area.php:75
+msgid "Cancel"
+msgstr ""

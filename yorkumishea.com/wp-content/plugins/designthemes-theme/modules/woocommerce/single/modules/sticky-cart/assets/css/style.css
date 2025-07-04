@@ -1,0 +1,73 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Sticky Add-to-Cart Section */
+/*--------------------------------------------------------------*/
+
+    .dt-sc-shop-single-sticky-addtocart-container { background-color: var(--DTWhiteColor); float: left; opacity: 0; padding: 0 10px; position: fixed; left: 0; bottom: 0; visibility: hidden; width: 100%; -webkit-box-shadow: 0 0 10px rgba(var(--DTBlack_RGB), 0.15); box-shadow: 0 0 10px rgba(var(--DTBlack_RGB), 0.15); -webkit-transform: translateY(100%); transform: translateY(100%); -webkit-transition: all 300ms linear 0s; transition: all 300ms linear 0s; }
+
+
+    .dt-sc-shop-single-sticky-addtocart-container.dt-sc-shop-sticky-enabled { opacity: 1; visibility: visible; -webkit-transform: translateY(0); transform: translateY(0); }
+    .dt-sc-shop-single-sticky-addtocart-container, #toTop.dt-sc-shop-sticky-enabled { z-index: 99999; }
+
+    .dt-sc-shop-single-sticky-addtocart-container .container > div,
+    .dt-sc-shop-single-sticky-addtocart-thumbnail, .dt-sc-shop-single-sticky-addtocart-info,
+    .dt-sc-shop-single-sticky-addtocart-info > * { float: none; vertical-align: middle; }
+
+    .dt-sc-shop-single-sticky-addtocart-container .container > div, .dt-sc-shop-single-sticky-addtocart-info > * { display: inline-block; }
+    .dt-sc-shop-single-sticky-addtocart-thumbnail, .dt-sc-shop-single-sticky-addtocart-info { display: table-cell; }
+
+    .dt-sc-shop-single-sticky-addtocart-info > *, .dt-sc-shop-single-sticky-addtocart-section > *,
+    .dt-sc-shop-single-sticky-addtocart-section a, .dt-sc-shop-single-sticky-addtocart-section a.button,
+    .dt-sc-shop-single-sticky-addtocart-section button, .dt-sc-shop-single-sticky-addtocart-section button.button, .dt-sc-shop-single-sticky-addtocart-section .button { margin: 5px 10px; }
+
+    .dt-sc-shop-single-sticky-addtocart-section a, .dt-sc-shop-single-sticky-addtocart-section a.button,
+    .dt-sc-shop-single-sticky-addtocart-section button, .dt-sc-shop-single-sticky-addtocart-section button.button, .dt-sc-shop-single-sticky-addtocart-section .button { line-height: normal; padding: 0.5em 1em; }
+
+    .dt-sc-shop-single-sticky-addtocart-container .container > div { padding: 10px 0; width: 50%; }
+    .dt-sc-shop-single-sticky-addtocart-section { text-align: right; }
+
+    .dt-sc-shop-single-sticky-addtocart-info > * { display: block; float: none !important; }
+
+    .dt-sc-shop-single-sticky-addtocart-thumbnail { line-height: 0; max-width: 75px; width: 75px; }
+    .dt-sc-shop-single-sticky-addtocart-thumbnail img { width: 100%; }
+
+    .dt-sc-shop-single-sticky-addtocart-price ins { background: none; }
+
+    .dt-sc-shop-single-sticky-addtocart-added { background-color: #77a464; color: var(--DTWhiteColor); font-size: 13px; line-height: normal; padding: 4px 12px; -webkit-border-radius: 3px; border-radius: 3px; }
+
+    .dt-sc-shop-single-sticky-addtocart-section a.button.loading, .dt-sc-shop-single-sticky-addtocart-section button.button.loading, .dt-sc-shop-single-sticky-addtocart-section input.button.loading { padding-right: 20px; }
+
+    .dt-sc-shop-single-sticky-addtocart-section a.add_to_cart_button.added { display: none; }
+
+    .dt-sc-shop-single-sticky-addtocart-section a.added_to_cart.wc-forward { cursor: pointer; display: inline-block; float: none; position: relative; outline: none; }
+
+
+    .dt-sc-shop-single-sticky-addtocart-section a.added_to_cart.wc-forward { color: var(--DTWhiteColor); }
+
+/* #endregion - Sticky Add-to-Cart Section */
+
+
+/*--------------------------------------------------------------
+ 	Responsive
+--------------------------------------------------------------*/
+
+    /*----*****---- << Mobile (Landscape) >> ----*****----*/	
+
+    /* Common Styles for the devices below 767px width */
+    @media only screen and (max-width: 767px) {
+
+        .dt-sc-shop-single-sticky-addtocart-container.dt-sc-shop-sticky-enabled { display: none; }
+        
+    }    
+
+
+    /*----*****---- << Tablet (Portrait) >> ----*****----*/	
+
+    /* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:1024px) {
+
+        .dt-sc-shop-single-sticky-addtocart-info h3 { font-size: 16px; }
+
+    }
+
+/* #endregion - Responsive */      

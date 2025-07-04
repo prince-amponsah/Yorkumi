@@ -1,0 +1,90 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DThemes Twitter\n"
+"POT-Creation-Date: 2020-06-08 12:28+0530\n"
+"PO-Revision-Date: 2020-01-14 18:56+0530\n"
+"Last-Translator: \n"
+"Language-Team: DesignThemes <ram@iamdesigning.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-KeywordsList: __e;__;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: designthemes-twitter.php:99
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: designthemes-twitter.php:100
+msgid "DesignThemes Twitter"
+msgstr ""
+
+#: designthemes-twitter.php:101
+msgid "PHP"
+msgstr ""
+
+#: widget-twitter.php:7
+msgid "To show latest twitter tweets"
+msgstr ""
+
+#: widget-twitter.php:9
+msgid "DThemes Twitter Widget"
+msgstr ""
+
+#: widget-twitter.php:15
+msgid "Latest Tweets"
+msgstr ""
+
+#: widget-twitter.php:40
+msgid "Title:"
+msgstr ""
+
+#: widget-twitter.php:47
+msgid "Consumer Key:"
+msgstr ""
+
+#: widget-twitter.php:54
+msgid "Consumer Secret:"
+msgstr ""
+
+#: widget-twitter.php:61
+msgid "Access Token:"
+msgstr ""
+
+#: widget-twitter.php:68
+msgid "Access Token Secret:"
+msgstr ""
+
+#: widget-twitter.php:75
+msgid "Enter your twitter username:"
+msgstr ""
+
+#: widget-twitter.php:82
+msgid "How many entries do you want to show:"
+msgstr ""
+
+#: widget-twitter.php:95
+msgid "Exclude @replies"
+msgstr ""
+
+#: widget-twitter.php:102
+msgid "Show time of tweet"
+msgstr ""
+
+#: widget-twitter.php:109
+msgid "Show user avatar"
+msgstr ""
+
+#: widget-twitter.php:189
+msgid "Image"
+msgstr ""
+
+#: widget-twitter.php:200
+msgid "No public Tweets found"
+msgstr ""

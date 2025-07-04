@@ -1,0 +1,74 @@
+    
+/*----*****---- << Overlay II Type Styles >> ----*****----*/
+
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry { border-radius: 10px; -webkit-box-shadow: 0 0 3px 0 rgba(var(--DTBlack_RGB), .2); box-shadow: 0 0 3px 0 rgba(var(--DTBlack_RGB), .2); }
+
+    .dt-sc-overlay-ii-style.dt-sc-post-entry:not(.entry-cover-layout) .blog-entry { background-color: var(--DTWhiteColor); }
+    .dt-sc-overlay-ii-style.dt-sc-post-entry:not(.entry-right-thumb) .blog-entry div.entry-thumb:first-child .entry-format a { border-radius: 10px 0 0 0; }
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry div.entry-thumb:first-child img { border-radius: 10px 10px 0 0; }
+
+    .dt-sc-overlay-ii-style.dt-sc-post-entry.entry-grid-layout .blog-entry:not(.has-post-thumbnail) > div.entry-thumb:first-child + div { margin-top: 35px; padding-top: 0; }
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry > div:last-child { margin-bottom: 35px; }
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry > div.entry-body:empty { display: block; }
+
+
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry > div.entry-meta-group:not(:last-child),.dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group:not(:last-child),.dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group:not(:last-child),.dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry > div.entry-meta-group { border-width: 0; padding-bottom: 0; }
+
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry div.entry-meta-group > div { display: inline-block; vertical-align: middle; }
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry div.entry-categories a,.dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry div.entry-tags a { display: inline-block; }
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry div.entry-meta-group > div,.dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:nth-child(odd),.dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:nth-child(even) { display: inline-block; float: none; margin-right: 10px; }
+
+    .dt-sc-overlay-ii-style.dt-sc-post-entry.alignright .blog-entry div.entry-meta-group > div,.dt-sc-overlay-ii-style.dt-sc-post-entry.alignright .blog-entry > div.entry-meta-group > div:nth-child(odd),.dt-sc-overlay-ii-style.dt-sc-post-entry.alignright .blog-entry > div.entry-meta-group > div:nth-child(even),.dt-sc-overlay-ii-style.dt-sc-post-entry.entry-right-thumb .blog-entry div.entry-meta-group > div,.dt-sc-overlay-ii-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:nth-child(odd),.dt-sc-overlay-ii-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:nth-child(even) { margin-left: 20px; margin-right: 0; }
+
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry div.entry-meta-group > div:last-child { margin-right: 0; }
+
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry div.entry-meta-group div[class*="entry-social-share"] a { margin-left: 0; }
+    .dt-sc-overlay-ii-style.dt-sc-post-entry[class*="entry-cover-layout"]:not(.dt-sc-one-third) .blog-entry { padding: 70px 60px; }
+    .dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-format { top: 5px; }
+    .dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details { padding-top: 30px; }
+
+    div[class*='overlay-'].dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry > .entry-thumb:first-child:after,.dt-sc-overlay-ii-style.dt-sc-post-entry.entry-grid-layout .blog-entry > .entry-thumb:first-child { border-radius: 10px 10px 0 0; }
+
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry .entry-title h4 span.sticky-post { border-radius: 50%; margin: 3px; }
+    .dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry { min-height: 440px; }
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry .dt-sc-like-views .likes { margin-right: 20px; }
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry i { margin-right: 10px; }
+
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div,.dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group > div,.dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div,.dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:nth-last-child(-n+2),.dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group > div:nth-last-child(-n+2),.dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:nth-last-child(-n+2) { margin-bottom: 10px; }
+
+
+    .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry div.entry-categories a:first-child:before, .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry div.entry-tags a:first-child:before, .dt-sc-overlay-ii-style.dt-sc-post-entry .blog-entry div.entry-author a:before { color: #666; content: ":"; display: inline; margin-left: 5px; margin-right: 5px; }
+
+
+/*--------------------------------------------------------------
+    Colors
+--------------------------------------------------------------*/
+
+    /*----*****---- << Light >> ----*****----*/                           
+   
+    .dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry div.entry-categories a:after, .dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry div.entry-tags a:after,
+    .dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry div.entry-tags a:first-child::before, .dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry div.entry-categories a:first-child::before, .dt-sc-overlay-ii-style.dt-sc-post-entry.entry-cover-layout .blog-entry div.entry-author a::before { color: var(--DTWhiteColor); }
+    
+    
+/*--------------------------------------------------------------
+    Responsive
+--------------------------------------------------------------*/    
+
+
+    /*----*****---- << Tablet (Portrait) >> ----*****----*/ 
+
+    /* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:1024px) {
+
+        .dt-sc-overlay-ii-style.dt-sc-post-entry[class*="entry-cover-layout"]:not(.dt-sc-one-third) .blog-entry { padding: 30px 0 0; } 
+        
+    }
+
+    /*----*****---- << Mobile - Portrait >> ----*****----*/
+
+    /* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+    
+        .dt-sc-overlay-ii-style.dt-sc-post-entry[class*="entry-cover-layout"]:not(.dt-sc-one-third) .blog-entry { padding: 30px 0 0; } 
+        
+    }

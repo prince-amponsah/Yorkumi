@@ -1,0 +1,42 @@
+	.post-nav-container { float:left; width:100%; margin:20px 0; padding:0; display:block; clear:both; position:relative; text-align:center; line-height:24px; }
+	
+	.post-nav-container .post-next-link a, .post-nav-container .post-prev-link a, .post-nav-container .post-prev-link.no-post p, .post-nav-container .post-next-link.no-post p { color:#181823; font-size:13px; font-weight:600; padding:0 15px; text-transform:uppercase; letter-spacing:0.5px; margin:0; display:inline-block; position:relative; overflow: hidden; }
+	.post-nav-container .post-prev-link, .post-nav-container .post-next-link { display:inline-block; }
+	
+	.post-nav-container .post-next-link a i, .post-nav-container .post-next-link.no-post p i { margin-left:10px; float:right; }
+	.post-nav-container .post-prev-link a i, .post-nav-container .post-prev-link.no-post p i { margin-right:10px; float:left; }
+	.post-nav-container .post-next-link a i, .post-nav-container .post-prev-link a i { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none; transition: none; }
+	
+	.post-nav-container a i, .post-nav-container .no-post p i { position:relative; top:0;} 
+	.post-nav-container .post-next-link a { margin-right:0; }
+
+	.post-nav-container .no-post { cursor: not-allowed; }
+
+	.post-nav-container.type2 .post-prev-link a i, .post-nav-container.type2 .post-next-link a i, .post-nav-container.type2 .post-prev-link.no-post p i, .post-nav-container.type2 .post-next-link.no-post p i { float: none; top: 2px; margin: 0; }
+	
+	.post-nav-container.type3 { margin:0; padding:30px 10px; }
+	.post-nav-container.type3 a { display:block; padding:0; text-shadow: none; color:#000; }
+	.post-nav-container.type3 a.post-archive-link{display:inline-block;}
+	.post-nav-container.type3 a:hover, .fullpage-portfolio .post-nav-container.type3 a:hover, .fullpage-portfolio .post-nav-container.type3 a { text-shadow: none; } 
+	.post-nav-container.type3 .post-next-link { float: right; padding: 0 50px 0 0; text-align: right; }
+	.post-nav-container.type3 .post-prev-link { float: left; padding: 0 0 0 50px; text-align: left; }
+	.post-nav-container.type3 .post-next-link, .post-nav-container.type3 .post-prev-link { width:45%; position:relative; min-height:1px; }
+	.post-nav-container.type3 i { position: absolute; left: 10px; z-index: 6; margin: auto; transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); top: 50%; font-size: 24px; }
+	.post-nav-container.type3 .post-next-link i { right:10px; left:auto; }
+	.post-nav-container.type3 .post-archive-link-wrapper a:before { margin-top:12px; }
+	.post-nav-container.type3 .post-archive-link-wrapper { float:left; width:6%; margin:0 2%; }
+	
+	.dt-sc-dark-bg .post-nav-container.type3 a:hover, .dt-sc-dark-bg .post-nav-container.type3 a { text-shadow: none; }
+		
+	.post-nav-container.type4 { margin:0; }
+	.post-nav-container.type4 .post-prev-link, .post-nav-container.type4 .post-next-link { position: fixed; left: 0; top: 50%; margin: auto; z-index: 9; }
+	.post-nav-container.type4 .post-next-link { transform: translateY(-50%) rotate(90deg); -webkit-transform: translateY(-50%) rotate(90deg); -moz-transform: translateY(-50%) rotate(90deg); -ms-transform: translateY(-50%) rotate(90deg); right: 0; left: auto; }
+	.post-nav-container.type4 .post-prev-link { transform: translateY(-50%) rotate(-90deg); -webkit-transform: translateY(-50%) rotate(-90deg); -moz-transform: translateY(-50%) rotate(-90deg); -ms-transform: translateY(-50%) rotate(-90deg); }
+	.post-nav-container.type4 a { background:none; text-shadow: none; color:#000; }
+	.post-nav-container.type4 a:hover, .dt-sc-dark-bg .post-nav-container.type4 a { text-shadow: none; } 
+	.dt-sc-dark-bg .post-nav-container.type4 a { color:#fff; }
+	
+	@media only screen and (max-width: 479px){
+	.post-nav-container.type3 .post-prev-link, .post-nav-container.type3 .post-next-link, .post-nav-container.type3 .post-archive-link-wrapper, .post-nav-container.type1 .post-prev-link, .post-nav-container.type1 .post-next-link, .post-nav-container.type1 .post-archive-link-wrapper {width: 100%;}
+	.post-nav-container.type3 .post-archive-link-wrapper, .post-nav-container.type1 .post-archive-link-wrapper { margin: 20px 0;}
+	}

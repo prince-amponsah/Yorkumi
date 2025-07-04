@@ -1,0 +1,74 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Secondary Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+	.woocommerce ul[class*="product-hover-secimage"] li.product.product-with-secondary-image .product-thumb .image .primary-image,
+	.woocommerce ul[class*="product-hover-secimage"] li.product.product-with-secondary-image .product-thumb .image .secondary-image { -webkit-transition: all 0.35s ease; transition: all 0.35s ease; }
+
+
+	/* Secondary Image Hover Effect - Hinge*
+	-------------------------------------- */
+	.woocommerce ul[class*="product-hover-secimage-hinge"] li.product.product-with-secondary-image .product-thumb .image {
+		-webkit-perspective: 50em;
+		-moz-perspective: 50em;
+		perspective: 50em; 
+	}
+
+	.woocommerce ul[class*="product-hover-secimage-hinge"] li.product.product-with-secondary-image .product-thumb .image .secondary-image {
+		opacity: 0;
+	}
+
+	.woocommerce ul[class*="product-hover-secimage-hinge"] li.product.product-with-secondary-image:hover .product-thumb .image .primary-image {
+		opacity: 0; 
+	}
+
+	.woocommerce ul[class*="product-hover-secimage-hinge"] li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image {
+		opacity: 1;
+		-webkit-transition-delay: 0.21s;
+		-moz-transition-delay: 0.21s;
+		transition-delay: 0.21s; 
+	}
+
+
+	/* Secondary Image Hover Effect - HingeDown
+	----------------------------------------- */
+	.woocommerce ul.products.product-hover-secimage-hingedown li.product.product-with-secondary-image .product-thumb .image .primary-image {
+		-webkit-transform-origin: 50% 100%;
+		-moz-transform-origin: 50% 100%;
+		-ms-transform-origin: 50% 100%;
+		-o-transform-origin: 50% 100%;
+		transform-origin: 50% 100%; 
+	}
+
+	.woocommerce ul.products.product-hover-secimage-hingedown li.product.product-with-secondary-image .product-thumb .image .secondary-image {
+		-webkit-transform: rotateX(-90deg);
+		-moz-transform: rotateX(-90deg);
+		-ms-transform: rotateX(-90deg);
+		-o-transform: rotateX(-90deg);
+		transform: rotateX(-90deg);
+		-webkit-transform-origin: 50% -50%;
+		-moz-transform-origin: 50% -50%;
+		-ms-transform-origin: 50% -50%;
+		-o-transform-origin: 50% -50%;
+		transform-origin: 50% -50%; 
+	}
+
+	.woocommerce ul.products.product-hover-secimage-hingedown li.product.product-with-secondary-image:hover .product-thumb .image .primary-image {
+		-webkit-transform: rotateX(90deg);
+		-moz-transform: rotateX(90deg);
+		-ms-transform: rotateX(90deg);
+		-o-transform: rotateX(90deg);
+		transform: rotateX(90deg);
+		opacity: 0; 
+	}
+
+	.woocommerce ul.products.product-hover-secimage-hingedown li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image {
+		-webkit-transform: rotateX(0);
+		-moz-transform: rotateX(0);
+		-ms-transform: rotateX(0);
+		-o-transform: rotateX(0);
+		transform: rotateX(0); 
+	}
+
+/* #endregion - Secondary Image Hover Effects */        		

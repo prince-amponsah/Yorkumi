@@ -1,0 +1,60 @@
+
+
+/*----*****---- << Trendy Type Styles >> ----*****----*/
+
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry * { -webkit-transition: none; transition: none; }
+
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry a, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry p, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry i, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-meta-group, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-likes-views > div, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-date { -webkit-transition: all .3s linear; transition: all .3s linear; }
+
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry { background: #f3f3f3; box-shadow: none; -moz-box-shadow: none; min-height: 300px; padding: 50px 0; }
+
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div:first-child:not(.entry-thumb) { margin-top: 0; }
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div:not(.entry-thumb), .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div:not(.entry-details) { font-size: 14px; }
+
+    .dt-sc-trendy-style.dt-sc-post-entry .blog-entry > div.entry-meta-group:not(:last-child), .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group:not(:last-child), .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group:not(:last-child) { padding-bottom: 0; }
+
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-button { margin-top: 10px; }
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-button:last-child { margin-bottom: 0; }
+
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-body p, 
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry div.entry-body p { margin-bottom: 0; }
+
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group { border: none; }
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div { display: inline-block; float: none; margin-right: 10px; padding-right: 10px; position: relative; }
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group:last-child { margin-bottom: 0; padding-bottom: 0; padding-top: 6px; }
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div { margin-bottom: 5px; }
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:before { color: rgba(0,0,0,.3); content: '/'; display: block; left: auto; position: absolute; right: -4px; top: 50%; transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); }
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:last-child { margin-right: 0; padding-right: 0; }
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:last-child:before { display: none; }
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout:hover .blog-entry .entry-details > div.entry-meta-group > div:before { color: rgba(var(--DTWhite_RGB),.6); }
+
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout.alignright .blog-entry .entry-details > div.entry-meta-group > div { float: right; margin-right: 0; margin-left: 10px; padding-right: 0; padding-left: 10px; }
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout.alignright .blog-entry .entry-details > div.entry-meta-group > div.entry-social-share { margin-top: -3px; }
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout.alignright .blog-entry .entry-details > div.entry-meta-group > div:before { right: auto; left: -4px; }
+
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-title h4 span.sticky-post { display: inline-block; float: none; left: 2px; margin-bottom: 10px; position: absolute; right: auto; top: 2px; }
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout.alignright .blog-entry .entry-title h4 span.sticky-post { left: auto; right: 2px; }
+
+/*--------------------------------------------------------------
+    Colors
+--------------------------------------------------------------*/
+
+    /*----*****---- << Dark >> ----*****----*/
+            
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry div i[class*="fa"], .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry div i.pe, .dt-sc-mobilephone-style.dt-sc-post-entry.entry-cover-layout .blog-entry:before { color: var(--DTBodyTxtColor); }
+    
+    
+    /*----*****---- << Light >> ----*****----*/                
+    
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div a.dt-sc-button, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry:hover .entry-details, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry:hover > div, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .sticky-post i[class*="fa"], .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .sticky-post i.pe, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry:hover div i[class*="fa"], .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry:hover div i.pe, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-social-share i[class*="fa"], .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details a:hover, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div a:hover, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-format a:hover,
+    
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry:hover div.entry-categories a:after, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry:hover div.entry-tags a:after { color: var(--DTWhiteColor); }    
+
+
+
+/*--------------------------------------------------------------
+    Accents
+--------------------------------------------------------------*/
+
+    /* Primary */
+    .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details a, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div a, .dt-sc-trendy-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-button a:hover { color: var(--DTTertiaryColor); } 

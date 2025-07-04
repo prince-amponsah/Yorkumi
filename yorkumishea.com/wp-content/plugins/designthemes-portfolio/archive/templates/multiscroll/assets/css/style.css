@@ -1,0 +1,20 @@
+/*----*****---- << Multiscroll >> ----*****----*/	
+	.dtportfolio-multiscroll-container { float: left; width: 100%; position:relative; }
+	.dtportfolio-multiscroll .dtportfolio-image-holder { background-position: center; background-size: cover; }
+	
+	
+	.multiscroll-button{font-size:0;}
+	.multiscroll-button.down:before { content: '\e859'; }
+	.multiscroll-button.up:before { content: '\e85c'; } 
+	.multiscroll-button:before { position: absolute; color: #131313; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); transform: translate(-50%,-50%); font-family: 'DT Icons'; font-style:normal; font-weight:900; font-size: 16px; line-height: 40px; display: block; transition: all 0.3s ease; -webkit-transition: all 0.3s ease; -ms-transition: all 0.3s ease;}
+	.multiscroll-button { position: absolute; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); width: 40px; height: 40px; cursor: pointer; background-color: rgba(255, 255, 255, 0.8); transition: all 0.3s ease; -webkit-transition: all 0.3s ease; -ms-transition: all 0.3s ease; z-index: 9; }
+	.multiscroll-button.down { right:50.08%; }
+	.multiscroll-button.up { left:49.95%; }
+	.multiscroll-button.up:hover { -webkit-transform: translateY(-70%); -ms-transform: translateY(-70%); transform: translateY(-70%); }
+ 	.multiscroll-button.down:hover { -webkit-transform: translateY(-20%); -ms-transform: translateY(-20%); transform: translateY(-20%); }
+	.multiscroll-button:hover { background-color:#fff; }
+	
+	.dtportfolio-multiscroll-container { float: left; width: 100%; height: 100%; }
+	.dtportfolio-multiscroll .dtportfolio-image-holder, .dtportfolio-multiscroll figure, .inner-wrapper, .wrapper { height: 100%; }
+	
+	.dtportfolio-container-multiscroll {float: left; width: 100%; height: 100%; position: relative;}

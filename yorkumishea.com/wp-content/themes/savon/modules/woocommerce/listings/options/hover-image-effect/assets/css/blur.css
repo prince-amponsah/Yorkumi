@@ -1,0 +1,9 @@
+
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-hover-image-blur li.product:not(.product-with-secondary-image):hover .product-thumb .image .primary-image { filter: blur(2px);-webkit-filter: blur(2px); }
+
+/* #endregion - Product Image Hover Effects */        

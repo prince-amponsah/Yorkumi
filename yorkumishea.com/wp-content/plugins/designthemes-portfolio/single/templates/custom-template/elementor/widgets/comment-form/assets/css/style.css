@@ -1,0 +1,6 @@
+.comment-respond form { float: left; margin-bottom: 20px; width: 100%; } 
+
+.dtportfolio-comment-form-holder input[type="text"] { margin-bottom: 20px; }
+.dtportfolio-comment-form-holder textarea { margin-bottom: 15px; margin-top: 15px; }
+
+.dtportfolio-comment-form-holder input#comment-form-dt-privatepolicy { margin: -3px 10px 0 0; }

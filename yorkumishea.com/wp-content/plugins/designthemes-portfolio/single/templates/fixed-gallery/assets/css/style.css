@@ -1,0 +1,36 @@
+.fixed-gallery .dtportfolio-fixed-content {
+    width: 50%;
+}
+
+
+.dtportfolio-single-layout-container.fixed-gallery .dtportfolio-single-image-holder {
+    background-size: cover;
+    background-position: center;
+}
+
+/** Fixed Gallery Images **/
+.fixed-gallery .dtportfolio-fixed-content { width:50%; }
+.fixed-gallery .dtportfolio-details .post-nav-container { margin:0; }
+
+#portfolio-featured-video {
+    right: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: black;
+    background-position: center center;
+    background-size: contain;
+    object-fit: inherit;
+    z-index: 3;
+    display: block;
+    float: left;
+}
+
+@media only screen and (max-width: 767px){
+	
+	.fixed-gallery .dtportfolio-fixed-content{width:100%;}
+	
+}

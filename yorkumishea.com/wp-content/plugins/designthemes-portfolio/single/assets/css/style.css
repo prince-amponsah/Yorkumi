@@ -1,0 +1,112 @@
+.dtportfolio-column { margin:0 0 0 2%; float:left; min-height:1px; position:relative; }
+.dtportfolio-column.first { margin-left:0; clear:both; }	
+
+.dtportfolio-full-width, .dtportfolio-one-column { width:100%; }
+.dtportfolio-column.dt-sc-full-width, .dtportfolio-column.dt-sc-one-column { margin-left:0; }
+
+.dtportfolio-one-half { width:49%; }
+
+.dtportfolio-one-third { width:32%; }
+.dtportfolio-two-third { width:66%; }
+
+.dtportfolio-one-fourth { width:23.5%; }
+.dtportfolio-three-fourth { width:74.5%; }	
+
+.dtportfolio-one-fifth { width:18.4%; }
+.dtportfolio-two-fifth { width:38.8%; }
+.dtportfolio-three-fifth { width:59.2%; }
+.dtportfolio-four-fifth { width:79.6%; }
+
+.dtportfolio-one-sixth { width:15%; }
+.dtportfolio-two-sixth { width:32%; }
+.dtportfolio-three-sixth { width:49%; }
+.dtportfolio-four-sixth { width:66%; }
+.dtportfolio-five-sixth { width:83%; }
+
+.wpb_column.dtportfolio-one-fifth { width: 20%; }
+.wpb_column.dtportfolio-two-fifth { width: 40%; }
+.wpb_column.dtportfolio-three-fifth { width: 60%; }
+.wpb_column.dtportfolio-four-fifth { width: 80%; }
+
+.dtportfolio-one-half iframe, .dtportfolio-one-third iframe, .dtportfolio-one-fourth iframe, .dtportfolio-three-fourth iframe, .dtportfolio-two-third iframe, iframe { max-width:100%; }
+embed, iframe, object, video { max-width:100%; }
+
+.dtportfolio-column.no-space { margin-left:0; margin-right:0; }
+.dtportfolio-column.no-space.dtportfolio-one-fourth { width:24.982%; } 	
+/*.dtportfolio-column.no-space.dtportfolio-one-third { width:33.333333%; }*/
+.dtportfolio-column.no-space.dtportfolio-one-half { width:50%; }
+.dtportfolio-column.no-space.dtportfolio-one-fifth, .wpb_column.no-space.dtportfolio-one-fifth { width:20%; }
+.dtportfolio-column.no-space.dtportfolio-one-sixth { width:16.666%; }
+
+.dtportfolio-column.no-space.dtportfolio-three-fourth { width:75%; }
+/*.dtportfolio-column.no-space.dtportfolio-two-third { width:66.666666%; }*/		
+.dtportfolio-column.no-space.dtportfolio-four-fifth, .wpb_column.no-space.dtportfolio-four-fifth { width:80%; }
+.dtportfolio-column.no-space.dtportfolio-three-fifth, .wpb_column.no-space.dtportfolio-three-fifth { width:60%; }
+.dtportfolio-column.no-space.dtportfolio-two-fifth, .wpb_column.no-space.dtportfolio-two-fifth { width:40%; }		
+.dtportfolio-column.no-space.dtportfolio-two-sixth { width:33.2%; }
+.dtportfolio-column.no-space.dtportfolio-three-sixth { width:49.98%; }
+.dtportfolio-column.no-space.dtportfolio-four-sixth { width:66.4%; }
+.dtportfolio-column.no-space.dtportfolio-five-sixth { width:83%; }	
+
+
+/*.dtportfolio-container .dtportfolio-one-fourth, .dtportfolio-container .dtportfolio-column.no-space.dtportfolio-one-fourth { width: 25%; } 	
+.dtportfolio-container .dtportfolio-one-third, .dtportfolio-container .dtportfolio-column.no-space.dtportfolio-one-third { width: 33.33333%; }
+.dtportfolio-container .dtportfolio-one-fifth, .dtportfolio-container .dtportfolio-column.no-space.dtportfolio-one-fifth { width:20%; }
+.dtportfolio-container .dtportfolio-one-sixth, .dtportfolio-container .dtportfolio-column.no-space.dtportfolio-one-sixth { width:16.666%; }
+.dtportfolio-container .dtportfolio-one-seventh, .dtportfolio-container .dtportfolio-column.no-space.dtportfolio-one-seventh { width:14.28%; }
+.dtportfolio-container .dtportfolio-one-eight, .dtportfolio-container .dtportfolio-column.no-space.dtportfolio-one-eight { width:12.5%; }
+.dtportfolio-container .dtportfolio-one-nineth, .dtportfolio-container .dtportfolio-column.no-space.dtportfolio-one-nineth { width:11.11%; }
+.dtportfolio-container .dtportfolio-one-tenth, .dtportfolio-container .dtportfolio-column.no-space.dtportfolio-one-tenth { width:10%; }
+    
+.dtportfolio-container .dtportfolio-one-half, .dtportfolio-container .dtportfolio-column.no-space.dtportfolio-one-half { width: 50%; }*/
+
+
+
+.dtportfolio-fullwidth-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.dtportfolio-fixed-content {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 33.33%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 8;
+}
+
+
+.dtportfolio-single-layout-container.right .dtportfolio-fixed-content {
+    right: 0;
+    left: auto;
+}
+
+
+.dtportfolio-fixed-items-page .main-title-section-wrapper, .dtportfolio-fixed-items-page.home #header-wrapper, .dtportfolio-fixed-items-page #header-wrapper { margin:0; }
+.dtportfolio-fixed-items-page.single #primary { padding:0; }
+.header-on-slider.no-breadcrumb.dtportfolio-fixed-items-page #main { margin-top:0; }
+
+
+
+
+.dtportfolio-transparent-header #header { z-index: 9; }
+
+.dtportfolio-transparent-header .dtportfolio-single-mediaontop-section { float: none; }
+
+.dtportfolio-transparent-header #header.header-top-absolute, .dtportfolio-transparent-header #header { position: absolute; top: 0; left: 0; }
+.dtportfolio-transparent-header #header-wrapper { margin: 0; position: relative; }
+.dtportfolio-transparent-header.no-breadcrumb #main { margin-top: 0; }
+
+.dtportfolio-transparent-header #header-wrapper #header:only-child .dt-no-header-builder-content { background-color: rgba(0,0,0,0); }
+
+@media only screen and (max-width: 767px){
+
+.dtportfolio-fixed-content {position: relative;width: 100%;}
+.fixed-featured-image .dtportfolio-fixed-content { height: 500px !important; top:auto !important;}
+.dtportfolio-column.no-space.dtportfolio-one-half{width:100%;}
+.dtportfolio-single-layout-container.gallery-list .dtportfolio-fixed-content{position:relative; top:auto !important; width:100% !important;}
+
+}

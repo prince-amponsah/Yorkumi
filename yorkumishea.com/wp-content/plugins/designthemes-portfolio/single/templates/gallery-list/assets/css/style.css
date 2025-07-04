@@ -1,0 +1,26 @@
+.dtportfolio-single-layout-container.gallery-list .with-content-left .dtportfolio-fixed-content {
+    left: 0;
+    right: auto;
+}
+.dtportfolio-single-layout-container.gallery-list .with-content-left .dtportfolio-fixed-content {
+    padding: 0;
+}
+.dtportfolio-single-layout-container.gallery-list .dtportfolio-fixed-content {
+    width: 50%;
+    top: 0;
+    max-height: 100%;
+    overflow-y: scroll;
+}
+.dtportfolio-single-layout-container.right .dtportfolio-fixed-content {
+    right: 0;
+    left: auto;
+}
+.gallery-list .dtportfolio-fixed-content {
+    position: fixed;
+}
+
+
+.dtportfolio-single-layout-container.gallery-list .with-content-right .dtportfolio-fixed-content {
+    right: 0;
+    left: auto;
+}

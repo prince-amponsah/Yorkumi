@@ -1,0 +1,8 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-hover-image-rotate li.product:not(.product-with-secondary-image):hover .product-thumb .image .primary-image {  -webkit-transform: scale(1.5) rotate(-10deg); transform: scale(1.5) rotate(-10deg); }
+
+/* #endregion - Product Image Hover Effects */        

@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------*/
+
+
+/* #region - Product Listing Style */
+
+
+/*--------------------------------------------------------------*/
+
+.woocommerce ul.products.product-style-default:not(.product-padding-content) li.product .product-details {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.woocommerce ul.products.product-style-default:not(.product-padding-content) li.product .product-details>div.product-title:first-child>h5 {
+    margin-top: 0;
+}
+
+
+/* #endregion - Product Listing Style */

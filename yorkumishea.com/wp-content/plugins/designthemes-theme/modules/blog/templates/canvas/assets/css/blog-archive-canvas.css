@@ -1,0 +1,78 @@
+
+/*----*****---- << Canvas Type Styles >> ----*****----*/
+
+    .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-title h4 { text-transform: uppercase; }
+    .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group { border: none; }
+    .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group:first-child { margin-top: 15px; }
+
+    .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group > div:nth-child(odd), .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:nth-child(odd) { clear: both; float: left; text-align: left; width: 49%; }
+    .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group > div:nth-child(even), .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:nth-child(even) { float: right; text-align: right; width: 49%; }
+
+    .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details { min-height: 670px; }
+    .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div:nth-last-child(2):not(.entry-meta-group) { margin-bottom: 180px; }
+    .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details .entry-meta-group:last-child { bottom: 10px; left: 0; margin: 0 auto; position: absolute; right: 0; }
+
+    #primary.page-with-sidebar .dt-sc-one-third.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group > div:nth-child(odd), #primary.page-with-sidebar .dt-sc-one-third.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:nth-child(odd), #primary.page-with-sidebar .dt-sc-one-third.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group > div:nth-child(even), #primary.page-with-sidebar .dt-sc-one-third.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:nth-child(even) { clear: both; display: inline-block; float: none; margin-bottom: 10px; text-align: inherit; width: 100%; }
+
+    #primary.page-with-sidebar .dt-sc-one-third.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details { min-height: auto; }
+    #primary.page-with-sidebar .dt-sc-one-third.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div:nth-last-child(2):not(.entry-meta-group), #primary.page-with-sidebar .dt-sc-one-half.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details { min-height: auto; }
+
+    #primary.page-with-sidebar .dt-sc-one-half.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div:nth-last-child(2):not(.entry-meta-group) { margin-bottom: 0; }
+
+    #primary.page-with-sidebar .dt-sc-one-third.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details .entry-meta-group:last-child, #primary.page-with-sidebar .dt-sc-one-half.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details .entry-meta-group:last-child { bottom: 0; margin-bottom: 18px; position: relative; }
+
+    #primary.page-with-sidebar .dt-sc-one-third.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div:nth-last-child(2):not(.entry-meta-group), #primary.page-with-sidebar .dt-sc-one-half.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div:nth-last-child(2):not(.entry-meta-group) { margin-bottom: 0; }
+
+
+/*--------------------------------------------------------------
+    Colors
+--------------------------------------------------------------*/
+
+    /*----*****---- << Light >> ----*****----*/                    
+    
+    .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry div.entry-categories a:after, .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry div.entry-tags a:after { color: var(--DTWhiteColor); }    
+
+
+/*--------------------------------------------------------------
+    Responsive
+--------------------------------------------------------------*/    
+
+    /*----*****---- << Laptop >> ----*****----*/
+    @media only screen and (min-width:1281px) and (max-width:1440px) {
+        
+    }
+
+
+    /*----*****---- << Tablet (Landscape) >> ----*****----*/
+
+    /* Note: Design for a width of 960px */ 
+    @media only screen and (min-width:1025px) and (max-width:1280px) {
+
+
+    }
+
+    /*----*****---- << Tablet (Portrait) >> ----*****----*/ 
+
+    /* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:1024px) {
+
+        #primary:not(.page-with-sidebar) .dt-sc-one-half.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group > div:nth-child(odd), #primary:not(.page-with-sidebar) .dt-sc-one-half.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:nth-child(odd), #primary:not(.page-with-sidebar) .dt-sc-one-half.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group > div:nth-child(even), #primary:not(.page-with-sidebar) .dt-sc-one-half.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:nth-child(even) { clear: both; display: inline-block; float: none; margin-bottom: 10px; text-align: inherit; width: 100%; }
+
+        #primary:not(.page-with-sidebar) .dt-sc-one-half.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details .entry-meta-group:last-child { bottom: 0; margin-bottom: 18px; position: relative; }
+
+        .dt-sc-one-half.dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div:nth-last-child(2):not(.entry-meta-group) { margin-bottom: 0; }
+        
+    }
+
+    /*----*****---- << Mobile - Portrait >> ----*****----*/
+
+    /* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+    
+        .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group > div:nth-child(odd), .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:nth-child(odd), .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group > div:nth-child(even), .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:nth-child(even) { clear: both; display: inline-block; float: none; margin-bottom: 10px; text-align: inherit; width: 100%; }
+    
+        .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details { min-height: auto; }
+        .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details .entry-meta-group:last-child { bottom: 0; margin-bottom: 10px; position: relative; }
+        .dt-sc-canvas-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div:nth-last-child(2):not(.entry-meta-group) { margin-bottom: 0; }
+        
+    }

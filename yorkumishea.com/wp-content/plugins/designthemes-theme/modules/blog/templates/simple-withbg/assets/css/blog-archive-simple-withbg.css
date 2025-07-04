@@ -1,0 +1,220 @@
+
+/*----*****---- << Simple - With Background Type Styles >> ----*****----*/
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-title h4 { margin: 0; text-transform: capitalize; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-social-share .share, .dt-sc-simple-withbg-style.dt-sc-post-entry:not(.entry-cover-layout) .blog-entry .entry-social-share .share { border-color: var(--DTWhiteColor); background: none; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry { padding: 22px 25px 0 25px; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div:not(.entry-thumb) { padding: 0 0; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-thumb ~ div.entry-button, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry div.entry-button, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-thumb ~ div.entry-button:not(:last-child), .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry div.entry-button:not(:last-child) { margin-bottom: 10px; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-thumb ~ div.entry-button:last-child, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry div.entry-button:last-child, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-thumb ~ div.entry-button:last-child, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry div.entry-button:last-child { margin-bottom: 30px; margin-top: 15px; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry div.entry-meta-group + div.entry-button:last-child { margin-top: 10px; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry.has-post-thumbnail .entry-thumb { -webkit-box-shadow: 0 28px 16px -25px var(--DTBlackColor); box-shadow: 0 28px 16px -25px var(--DTBlackColor); }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry.sticky { -webkit-box-shadow: 0 28px 16px -25px var(--DTBlackColor); box-shadow: 0 28px 16px -25px var(--DTBlackColor); }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout:hover .blog-entry.has-post-thumbnail .entry-thumb { -webkit-box-shadow: none; box-shadow: none; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div[class*="entry-"]:first-child { margin-top: 5px; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-thumb:first-child { margin-top: -50px; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry.has-post-thumbnail > div.entry-thumb:first-child { margin-top: 0; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div:not(.entry-body), .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div:not(.entry-body) { font-size: 14px; text-transform: capitalize; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-meta-group { border: none; font-size: 14px; margin: 10px 0; padding-bottom: 0; padding-top: 0; text-transform: capitalize; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout.entry-right-thumb .blog-entry > div.entry-meta-group { padding-right: 35px; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry div.entry-categories a:after, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry div.entry-tags a:after { color: inherit; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-title h4 span.sticky-post { top: 3px; right: 3px; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-thumb + .entry-title h4 span.sticky-post { right: 3px; top: 3px; width: 30px; height: 30px; } 
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.alignright .blog-entry .entry-title h4 span.sticky-post { right: auto; left: 3px; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry div.entry-meta-group + div.entry-button:last-child, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-thumb ~ div.entry-meta-group + div.entry-button:last-child, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry div.entry-meta-group + div.entry-button:last-child, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-meta-group + div.entry-thumb ~ div.entry-button:last-child, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry div.entry-meta-group + div.entry-button:last-child { margin-top: 5px; }
+
+    #primary:not(.page-with-sidebar) .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-meta-group:not(:last-child), #primary:not(.page-with-sidebar) .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group:not(:last-child) { margin-top: 0; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group:last-child { margin-bottom: 25px; margin-top: 0; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div:nth-child(2) { margin-top: 0; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div:last-child { margin-bottom: 30px; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-thumb:first-child + div,
+    #primary:not(.page-with-sidebar) .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div:first-child + div.entry-meta-group,
+    #primary:not(.page-with-sidebar) .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-meta-group:first-child { margin-top: 25px; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry.has-post-thumbnail > div[class*="entry-"] > p { margin-bottom: 0; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry.has-post-thumbnail > div.entry-body + .entry-meta-group:last-child { margin-top: 0; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout:before { border-bottom: 1px dashed rgba(0,0,0,.2); bottom: 30px; content: ''; display: inline-block; float: none; height: 1px; left: 0; margin: 0 auto; position: absolute; right: 0; width: 100%; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout:last-child:before, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout.grid-sizer:before { display: none; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout:last-child { margin-bottom: 0; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry { float: left; margin-bottom: 70px; position: relative; width: 100%; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-format a { box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -webkit-box-shadow: none; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:nth-child(odd), .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:nth-child(even) { float: right; margin-left: 25px; margin-right: 0; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:not(:last-child):after { left: -15px; right: auto; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:last-child { margin-left: 0; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(odd), .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(even) { display: inline-block; float: none; width: auto; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:nth-child(odd), .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:nth-child(even) { clear: none; display: inline-block; float: none; margin: 5px 25px 5px 0; position: relative; width: auto; }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:not(:last-child):after { content: '-'; display: block; margin: 0; padding: 0; position: absolute; right: -15px; top: 0; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:last-child { margin-right: 0; padding-right: 0; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div.entry-social-share { margin-bottom: 0; margin-top: 0; }
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div.entry-social-share:after { top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-body:last-child p { margin-bottom: 0; }
+
+/*--------------------------------------------------------------
+    Colors
+--------------------------------------------------------------*/
+
+    /*----*****---- << Dark >> ----*****----*/
+    
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry a:not(.dt-sc-button):hover { color: var(--DTBlackColor); }    
+
+
+    /*----*****---- << Light >> ----*****----*/            
+    
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry a:not(.dt-sc-button), .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry div i[class*="fa"], .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry div i.pe, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-button a.dt-sc-button:hover, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-format a:hover, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry.sticky .entry-format a { color: var(--DTWhiteColor); }
+
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-social-share .share > i, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-button a.dt-sc-button, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-format a,  .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-title h4 span.sticky-post { background: var(--DTWhiteColor); }
+
+
+/*--------------------------------------------------------------
+    Accents
+--------------------------------------------------------------*/
+
+    /* Primary */
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-social-share .share > i, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-button a.dt-sc-button, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-format a, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-title h4 span.sticky-post, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-title h4 span.sticky-post i { color: var(--DTTertiaryColor); }  
+
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-format a:hover, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry.sticky .entry-format a, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry .entry-thumb .bx-wrapper { background-color: var(--DTPrimaryColor); } 
+
+
+    /* Secondary */
+    .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry .entry-button a.dt-sc-button:hover { background-color: var(--DTSecondaryColor); } 	
+
+
+/*--------------------------------------------------------------
+    Responsive
+--------------------------------------------------------------*/    
+    
+
+    /*----*****---- << iPad - Landscape >> ----*****----*/
+
+    @media only screen and (min-width:1025px) {
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group, #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry:not(.entry-cover-layout) .blog-entry > div:not(.entry-thumb) { padding: 0 0; }
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(even), #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(odd) { display: inline-block; float: none; margin-bottom: 5px; margin-right: 20px; width: auto; }
+        
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-body p { margin-bottom: 0; }
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group:last-child, #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry:not(.entry-cover-layout) .blog-entry > div:not(.entry-thumb):last-child { margin-bottom: 25px; margin-top: 0; }
+        
+    }
+
+    /* Note: Design for a width of 960px */ 
+    @media only screen and (min-width:1025px) and (max-width:1280px) {
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group, #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-meta-group, #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry:not(.entry-cover-layout) .blog-entry > div:not(.entry-thumb) { padding: 0 0; }
+
+        .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(even), .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(odd), #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(even), #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(odd) { display: inline-block; float: none; margin-bottom: 5px; width: auto; }
+
+    }
+
+    /*----*****---- << Tablet (Portrait) >> ----*****----*/ 
+
+    /* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:1024px) {
+
+        .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div:not(.entry-body), .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group, .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry:not(.entry-cover-layout) .blog-entry > div:not(.entry-thumb) { padding-left: 0; padding-right: 0; }
+
+    }
+
+
+    /*----*****---- << Tablet (Portrait) >> ----*****----*/ 
+
+    /* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:1024px) {
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group, #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-meta-group, #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry:not(.entry-cover-layout) .blog-entry > div:not(.entry-thumb) { padding: 0 0; }
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:nth-child(odd), #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group > div:nth-child(odd), #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:nth-child(odd), #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:nth-child(even), #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-cover-layout .blog-entry .entry-details > div.entry-meta-group > div:nth-child(even), #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-cover-layout .blog-entry > div.entry-meta-group > div:nth-child(even) { clear: none; display: inline-block; float: none; text-align: inherit; width: auto; }
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-meta-group > div:nth-child(odd), #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-meta-group > div:nth-child(even) { margin-bottom: 5px; }
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div, #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:nth-child(odd), #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:nth-child(even) { margin-left: 0; ; margin-right: 25px; }
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:last-child, #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:nth-child(odd):last-child, #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:nth-child(even):last-child { margin-right: 0; }
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout:before { left: 0; }
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:not(:last-child):after { left: auto; right: -15px; }
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div:nth-child(2) { margin-top: 25px; }
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div:last-child { padding: 0 35px; }
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-body:last-child p { margin-bottom: 0; }
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div, #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(odd), .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(even) { display: inline-block; float: none; margin-bottom: 0; }
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div:not(.entry-thumb) { padding: 0 20px; }
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div.entry-social-share { margin-bottom: 10px; }
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group:not(:last-child), 
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-meta-group:not(:last-child) { margin-bottom: 0; }
+
+        .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(even), .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(odd), #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(even), #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(odd) { display: inline-block; float: none; margin-bottom: 10px; width: auto; }
+
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-one-third.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group:last-child { margin-bottom: 25px; }
+        .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group:last-child { margin-bottom: 25px; }
+        .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-body p { margin-bottom: 0; }
+        
+    }
+
+
+    /*----*****---- << Mobile (Landscape) >> ----*****----*/    
+
+    /* Common Styles for the devices below 767px width */
+    @media only screen and (max-width: 767px) {
+    
+        .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout:before { left: 0; }
+        .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div:nth-child(2), #primary:not(.page-with-sidebar) .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-meta-group:not(:last-child) { margin-top: 25px; }
+    
+        .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-body:last-child p { margin-bottom: 0; }
+    
+        .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:nth-child(odd), .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:nth-child(even), .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:nth-child(odd), .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:nth-child(even) { display: inline-block; float: none; margin-left: 0; margin-right: 25px; }
+    
+        .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:last-child, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:nth-child(odd):last-child, .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:nth-child(even):last-child, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:nth-child(odd):last-child, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:nth-child(even):last-child { margin-right: 0; }
+    
+        .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:after, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-meta-group > div:not(:last-child):after { left: auto; right: -15px; }
+    
+        .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div.entry-social-share { margin-bottom: 10px; }
+    
+        .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry { margin-bottom: 50px; }
+    
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group:not(:last-child), .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group:last-child { margin-bottom: 25px; margin-top: 0; }
+    
+        .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div:last-child, 
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div:last-child { margin-top: 0; }
+    
+        .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry div.entry-meta-group + div.entry-button:last-child,
+        #primary.page-with-sidebar .dt-sc-simple-withbg-style.dt-sc-post-entry .blog-entry div.entry-meta-group + div.entry-button:last-child { margin-top: 10px; }
+    
+        #primary:not(.page-with-sidebar) .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-meta-group:not(:last-child) { margin-top: 5px; }
+        
+    }
+
+    
+    /*----*****---- << Mobile - Portrait >> ----*****----*/
+
+    /* Common Styles for the devices below 479px width */
+    @media only screen and (max-width: 479px) {
+    
+        .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div, .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(odd), .dt-sc-simple-withbg-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-meta-group > div:nth-child(even) { margin-bottom: 5px; }
+        
+    }

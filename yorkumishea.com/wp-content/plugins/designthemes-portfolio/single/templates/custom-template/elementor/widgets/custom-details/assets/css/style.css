@@ -1,0 +1,23 @@
+.dtportfolio-project-details { margin:0; padding: 0; float:left; clear:both; width:100%; }
+.dtportfolio-project-details li { float:left; display:block; margin:0; padding:10px 0; font-size:16px; border-bottom:1px solid rgba(0, 0, 0, 0.1); width:100%; }
+.dtportfolio-project-details li:last-child { padding-bottom:10px; }
+.dtportfolio-project-details li span { font-weight:bold; width:85px; display:inline-block; color:#000; }
+.dtportfolio-project-details li a { color:#808080; }	
+.dtportfolio-single-details .dtportfolio-project-details:empty { margin:0; }
+
+.dt-sc-dark-bg .dtportfolio-project-details li span { color:#fff; }
+.dt-sc-dark-bg .dtportfolio-project-details.type2 li span { border-bottom-color: rgba(255, 255, 255, 0.45); }
+	
+.dtportfolio-project-details.type2 { display:block; width:auto; float:none; margin:0 auto; }
+.dtportfolio-project-details.type2 li { display: inline-block; width: auto; float: none; border-bottom: 0; padding: 0 4% 20px 0; text-align:left; }
+.dtportfolio-project-details.type2 li span { text-align:left; display:block; width: auto; border-bottom: 1px solid rgba(0, 0, 0, 0.15); padding-bottom: 5px; margin-bottom: 10px; min-width:200px; }
+.dtportfolio-project-details.type2 li:last-child { margin-right:0; padding:0; }
+	
+.dtportfolio-project-details.type3 li { border-bottom:0; }
+.dtportfolio-project-details.type3 li span { display:block; width:auto; }
+
+@media only screen and (max-width: 767px){
+
+.dtportfolio-project-details.type2 li { width: 100%; padding: 0 0 20px 0;}
+
+}

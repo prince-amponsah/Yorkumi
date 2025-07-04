@@ -1,0 +1,263 @@
+
+/*--------------------------------------------------------------
+    Overlap Type Styles
+--------------------------------------------------------------*/
+
+	.blog-single-entry.post-overlap > .entry-thumb { margin: 0 0 20px 0; }
+	.blog-single-entry.post-overlap > .entry-thumb .entry-format a { float: right; height: 55px; line-height: 55px; position: relative; text-align: center; width: 55px; -webkit-box-shadow: none; box-shadow: none; margin: 10px; }
+	.blog-single-entry.post-overlap > .entry-thumb .entry-format a:before { font-size: 20px; height: 100%; left: 0; line-height: 55px; margin: 0; text-align: center; top: 0; width: 100%; }
+	.blog-single-entry.post-overlap > .entry-thumb .entry-overlap { bottom: 0; float: left; left: 0; margin: 0 auto; margin-bottom: 0; padding: 35px 0px 12px 0; position: absolute; width: 75%; }
+	.blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-title { float: left; margin: 0 0 5px 0; width: 100%; }
+	.blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-title h1,.blog-single-entry.post-overlap > .entry-title h1 { font-size: 30px; margin: 0; padding: 0; }
+	.blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-bottom-details { float: left; margin: 0; width: 100%; }
+	.blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-bottom-details > * { display: inline-block; float: left; text-transform: capitalize; line-height: 20px; margin-right: 20px; position: relative; }
+	.blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-bottom-details > *:last-child { margin-right: 0; }
+
+	.blog-single-entry.post-overlap .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {padding: 10px 0;}
+
+
+	/*----*****---- << Overlap Type - Meta Group >> ----*****----*/
+
+	.blog-single-entry.post-overlap > div.entry-meta-group { float: left; font-size: 14px; font-weight: 300; letter-spacing: .5px; margin-bottom: 20px; overflow: hidden; padding: 30px 0; position: relative; width: 100%; }
+	.blog-single-entry.post-overlap > div.entry-meta-group:before,.blog-single-entry.post-overlap > div.entry-meta-group:after { border-left-width: 0; border-right-width: 0; border-right-style: none;
+	border-left-style: none; border-style: solid; border-top-width: 1px; border-bottom-width: 1px; content: ''; display: block; height: 10px; position: absolute; transform: skew(-80deg); width: 100px;
+	-moz-transform: skew(-80deg); -ms-transform: skew(-80deg); -webkit-transform: skew(-80deg); display:none;}
+	.blog-single-entry.post-overlap > div.entry-meta-group:before { left: -30px; top: 0; }
+	.blog-single-entry.post-overlap > div.entry-meta-group:after { bottom: 0; right: -30px; }
+	.blog-single-entry.post-overlap > div.entry-meta-group > div { display: inline-block; float: none; margin: 0 0 15px 0; position: relative; width: 49%; }
+	.blog-single-entry.post-overlap > div.entry-meta-group > div:nth-child(odd) { clear: both; float: left; text-align: left; }
+	.blog-single-entry.post-overlap > div.entry-meta-group > div:nth-child(even) { float: right; text-align: right; }
+	.blog-single-entry.post-overlap > div.entry-meta-group > div:nth-child(even) .dt-sc-like-views > div { float: none; }
+	.blog-single-entry.post-overlap > div.entry-meta-group > div:nth-child(even) .dt-sc-like-views > div:last-child { margin-right: 0; padding-right: 0; }
+	.blog-single-entry.post-overlap > div.entry-meta-group > div:nth-last-child(-n+2) { margin-bottom: 0; }
+
+	.blog-single-entry.post-overlap > div.entry-meta-group > div:nth-child(even) a { margin: 0 0 0 5px; }
+	.blog-single-entry.post-overlap > div.entry-meta-group > div:nth-child(even) i + a { margin: 0; }
+
+	.blog-single-entry.post-overlap > div.entry-meta-group > div[class*="entry-"] > div[class*="-wrap"] { display: inline-flex; }
+
+	/* Meta Group - Entry Tags */
+	.blog-single-entry.post-overlap > div.entry-meta-group .entry-tags a,.blog-single-entry.post-overlap > .entry-tags a { border: 1px solid; display: inline-block; letter-spacing: 1px; line-height: normal; margin: 0 5px 0 0; padding: 7px 10px; text-transform: none; }
+	.blog-single-entry.post-overlap > div.entry-meta-group .entry-tags a:last-child,.blog-single-entry.post-overlap > .entry-tags a:last-child { margin-right: 0; }
+	.blog-single-entry.post-overlap > .entry-author,.blog-single-entry.post-overlap > .entry-date,.blog-single-entry.post-overlap > .entry-categories,.blog-single-entry.post-overlap > .entry-comments,
+	.blog-single-entry.post-overlap > .entry-social-share,.blog-single-entry.post-overlap > .entry-likes-views,.blog-single-entry.post-overlap > .entry-tags,
+	.blog-single-entry.post-overlap > .entry-title { float: left; margin-bottom: 20px; width: 100%; }
+	
+	/* Meta Group - Social Share */
+	.blog-single-entry.post-overlap > div.entry-meta-group .entry-social-share .share,.blog-single-entry.post-overlap > .entry-social-share .share { border: none; padding: 0; }
+	.blog-single-entry.post-overlap > div.entry-meta-group .entry-social-share .share i,.blog-single-entry.post-overlap > .entry-social-share .share i { display: none; }
+	.blog-single-entry.post-overlap > div.entry-meta-group .share .dt-share-list { display: inline-block; margin: 0; padding: 0; width: 100%; }
+	.blog-single-entry.post-overlap > div.entry-meta-group .share .dt-share-list li,.blog-single-entry.post-overlap > .entry-social-share .share .dt-share-list li { display: inline-block; margin-right: 5px; padding-bottom: 0; text-align: center; }
+	.blog-single-entry.post-overlap > div.entry-meta-group .share .dt-share-list li:last-child,.blog-single-entry.post-overlap > .entry-social-share .share .dt-share-list li:last-child { margin-right: 0; }
+	.blog-single-entry.post-overlap > div.entry-meta-group .share .dt-share-list li a,.blog-single-entry.post-overlap > .entry-social-share .share .dt-share-list li a { border: 1px solid; font-size: 14px; height: 30px; line-height: 30px; width: 30px; }
+	.blog-single-entry.post-overlap > .entry-social-share .share i { display: none; }
+	
+	/* Meta Group - Likes Views */
+	.blog-single-entry.post-overlap > .entry-meta-group .entry-likes-views .dt-sc-like-views > div,.blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div { border: 1px solid;display: inline-block; float: left; margin-right: 10px; padding-left: 30px; padding-right: 0; position: relative; width: auto; }
+	.blog-single-entry.post-overlap > .entry-meta-group .entry-likes-views .dt-sc-like-views > div > i,.blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div > i { float: left; margin: 0; text-align: center; width: 30px; position: absolute; left: 0; top: 0; height: 100%; display: flex; align-items: center; justify-content: center; }
+	.blog-single-entry.post-overlap > .entry-meta-group .entry-likes-views .dt-sc-like-views > div > a,.blog-single-entry.post-overlap > .entry-meta-group .entry-likes-views .dt-sc-like-views > div > span,.blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div > a, .blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div > span { display: inline-block; line-height: 30px; padding: 0 10px; position: relative; text-align: center; }
+
+	.blog-single-entry.post-overlap > .entry-meta-group .entry-likes-views .dt-sc-like-views > div:last-child,
+	.blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div:last-child { margin-right: 0; }
+	
+	/* Meta Group - Entry Comments */
+	.blog-single-entry.post-overlap > div.entry-meta-group .entry-comments a,.blog-single-entry.post-overlap > .entry-comments a { border: 1px solid; display: inline-block; padding: 0 15px 0 45px; position: relative; }
+	.blog-single-entry.post-overlap > div.entry-meta-group .entry-comments a i,.blog-single-entry.post-overlap > .entry-comments a i { font-size: 14px; line-height: 30px; float: left; margin: 0; text-align: center; width: 30px; position: absolute; left: 0; top: 0; height: 100%; display: flex; align-items: center; justify-content: center; }
+	
+	/* Meta Group - Entry Date */
+	.blog-single-entry.post-overlap > div.entry-meta-group .entry-date .date-wrap,.blog-single-entry.post-overlap > .entry-date .date-wrap { border: 1px solid; display: inline-block; padding: 0 15px 0 45px; text-transform: none; position: relative; }
+	.blog-single-entry.post-overlap > div.entry-meta-group .entry-date .date-wrap i,.blog-single-entry.post-overlap > .entry-date .date-wrap i { float: left; font-size: 14px; margin: 0; text-align: center; width: 30px; position: absolute; left: 0; top: 0; height: 100%; display: flex; align-items: center; justify-content: center; }
+	
+	/* Meta Group - Entry Author */
+	.blog-single-entry.post-overlap > div.entry-meta-group > .entry-author > .author-wrap,.blog-single-entry.post-overlap > .entry-author > .author-wrap { border: 1px solid; display: inline-block; margin: 0; padding: 0 0 0 30px; position: relative; }
+	.blog-single-entry.post-overlap > .entry-meta-group > .entry-author > .author-wrap > i,.blog-single-entry.post-overlap > .entry-author > .author-wrap > i { float: left; margin: 0; text-align: center; width: 30px; position: absolute; left: 0; top: 0; height: 100%; display: flex; align-items: center; justify-content: center; }
+	.blog-single-entry.post-overlap > .entry-meta-group > .entry-author > .author-wrap > a,.blog-single-entry.post-overlap > .entry-author > .author-wrap > a { display: inline-block; line-height: 30px; padding: 0 10px; position: relative; text-align: center; text-transform: none; }
+	
+	/* Meta Group - Entry Category */
+	.blog-single-entry.post-overlap > div.entry-meta-group > .entry-categories > .category-wrap,.blog-single-entry.post-overlap > .entry-categories > .category-wrap { border: 1px solid; position: relative; display: inline-block; padding: 0 15px 0 45px; overflow: hidden; text-transform: none; }
+	.blog-single-entry.post-overlap > .entry-meta-group > .entry-categories > .category-wrap > i,.blog-single-entry.post-overlap > .entry-categories > .category-wrap > i { float: left; margin: 0; text-align: center; width: 30px; position: absolute; left: 0; top: 0; height: 100%; display: flex; align-items: center; justify-content: center; }
+	.blog-single-entry.post-overlap > .entry-meta-group > .entry-categories > .category-wrap > a,.blog-single-entry.post-overlap > .entry-categories > .category-wrap > a { display: inline-block; padding: 0; position: relative; text-align: center; }
+
+	/* Overlap Type - Likes Views */
+	.blog-single-entry.post-overlap > .entry-likes-views { display: inline-block; margin-bottom: 20px; position: relative; width: 100%; }
+	.blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div { display: inline-block; margin-right: 10px; padding-right: 10px; position: relative; }
+	.blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div:last-child { margin-right: 0; padding-right: 0; }
+	.blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views .likes:before { content: ''; display: block; height: 2px; position: absolute; right: -2px; top: 50%; transform: translateY(-50%); width: 4px; -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); }	
+	
+	/* Overlap Type - Entry Author Bio */
+	.blog-single-entry.post-overlap > .entry-author-bio { clear: both; display: block; float: left; margin: 0 0 20px; padding: 0; position: relative; width: 100%; }
+	.blog-single-entry.post-overlap > .entry-author-bio > .thumb { float: left; height: 100%; left: 0; margin: 0; margin-bottom: 0; position: relative; width: 8%; }
+	.blog-single-entry.post-overlap > .entry-author-bio > .details { padding: 0 0 0 10%; position: relative; width: 100%; }
+	.blog-single-entry.post-overlap > .entry-author-bio > .details h3 { display: inline-block; font-size: 16px; font-weight: 700; margin-bottom: 15px; padding-bottom: 15px; position: relative; text-transform: uppercase; }
+	.blog-single-entry.post-overlap > .entry-author-bio > .details h3:before { bottom: 0; content: ''; display: block; height: 1px; left: 0; margin: 0 auto; position: absolute; width: 40px; }
+	
+	/* Overlap Type - Post Navigation */
+	.blog-single-entry.post-overlap > .entry-post-navigation:not(:first-child) { margin-top: 20px; }
+	.blog-single-entry.post-overlap > .entry-post-navigation { clear: both; display: flex; float: left; margin: 0 0 40px 0; padding: 0; position: relative; width: 100%; }
+	.blog-single-entry.post-overlap > .entry-post-navigation > div:last-child { margin: 0; }
+	.blog-single-entry.post-overlap > .entry-post-navigation > div { float: left; min-height: 130px; margin: 0 2% 0 0; padding: 30px 40px 30px 40px; position: relative; text-align: center; width: 49%; z-index: 1; align-content: center; align-items: center; display: flex; justify-content: center; }
+	.blog-single-entry.post-overlap > .entry-post-navigation > div:not(:empty):before { bottom: 0; content: ''; margin: auto; position: absolute; top: 0; width: 0; z-index: -1; }
+
+    .blog-single-entry.post-overlap .entry-body .entry-post-navigation > div:not(:last-child) { width: 50%; float: left; padding-right: 10px; }
+    
+    .blog-single-entry.post-overlap .entry-body .entry-post-navigation > div:last-child { width: 50%; float: right; text-align: right; padding-left: 10px; }    
+    
+
+	@media all and (-ms-high-contrast:none)
+    {
+    	.blog-single-entry.post-overlap > .entry-post-navigation { display: block; } /* IE10 */
+    	*::-ms-backdrop, .blog-single-entry.post-overlap > .entry-post-navigation { display: block; } /* IE11 */
+    }
+
+	.blog-single-entry.post-overlap > .entry-post-navigation > div:hover:before { width: 100%; }
+	.blog-single-entry.post-overlap > .entry-post-navigation > .post-prev-link:before { right: 0; }
+	.blog-single-entry.post-overlap > .entry-post-navigation > .post-next-link:before { left: 0; }
+	.blog-single-entry.post-overlap > .entry-post-navigation > div:empty { cursor: not-allowed; }
+	.blog-single-entry.post-overlap > .entry-post-navigation > div > a { display: block; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 1; }
+	.blog-single-entry.post-overlap > .entry-post-navigation > div > .nav-title-wrap p { display: none; }
+	.blog-single-entry.post-overlap > .entry-post-navigation > div > .nav-title-wrap span { display: inline-block; font-size: 40px; line-height: 20px; margin-bottom: 20px; }
+	.blog-single-entry.post-overlap > .entry-post-navigation > div > .nav-title-wrap > h3 { display: inline-block; font-weight:600; letter-spacing: 0; margin-bottom: 0; text-transform:none;width: 100%; }
+	.blog-single-entry.post-overlap > .entry-post-navigation > div > .nav-title-wrap > h3 a { word-wrap: break-word; }
+	
+	/* Overlap Type - Entry Related Posts */
+	.blog-single-entry.post-overlap > .entry-related-posts { float: left; margin-bottom: 20px; position: relative; width: 100%; }
+
+
+    .blog-single-entry.post-overlap div.dt-sc-posts-meta-group[class*="metagroup-elements-filled"] div[class*="entry-social"] .share > i { border-right: 1px solid rgba(255,255,255,0.5); }
+    
+
+/*--------------------------------------------------------------
+    Sidebar Styles
+--------------------------------------------------------------*/
+
+	.page-with-sidebar .blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-title h1 { font-size: 25px; }
+    
+
+/*--------------------------------------------------------------
+    Default Colors
+--------------------------------------------------------------*/
+
+    .blog-single-entry.post-overlap > .entry-thumb .entry-overlap {background: var(--DTWhiteColor); }    
+
+
+	.blog-single-entry.post-overlap > .entry-post-navigation > div { background: #f5f5f5; }
+    .blog-single-entry.post-overlap > .entry-post-navigation > div:before { background: rgba(var(--DTBlack_RGB),1); }    
+    
+    
+    .blog-single-entry.post-overlap > .entry-thumb > .entry-format > a,.blog-single-entry.post-overlap > .entry-tags a:hover,.blog-single-entry.post-overlap > .entry-social-share .share .dt-share-list li a:hover,.blog-single-entry.post-overlap > .entry-comments a i,.blog-single-entry.post-overlap > .entry-author i,.blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div > i,.blog-single-entry.post-overlap > .entry-date .date-wrap i,.blog-single-entry.post-overlap > .entry-categories > .category-wrap > i,.blog-single-entry.post-overlap > div.entry-meta-group .entry-tags a:hover,.blog-single-entry.post-overlap > div.entry-meta-group .share .dt-share-list li a:hover,.blog-single-entry.post-overlap > div.entry-meta-group .entry-comments a i,.blog-single-entry.post-overlap > div.entry-meta-group .entry-author i,.blog-single-entry.post-overlap > div.entry-meta-group .entry-likes-views .dt-sc-like-views > div > i,.blog-single-entry.post-overlap > div.entry-meta-group .entry-date .date-wrap i,.blog-single-entry.post-overlap > div.entry-meta-group > .entry-categories > .category-wrap > i,.blog-single-entry.post-overlap > .entry-post-navigation > div:hover span,.blog-single-entry.post-overlap > .entry-post-navigation > div:hover h3 a { color: var(--DTWhiteColor); }    
+    
+
+    .blog-single-entry.post-overlap > .entry-thumb > .entry-format > a { border-color: var(--DTWhiteColor); }    
+    
+
+/*--------------------------------------------------------------
+    Accents
+--------------------------------------------------------------*/
+
+	/* Primary */
+	.blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-bottom-details > * a:hover,.blog-single-entry.post-overlap > .entry-author-bio > .details h3 a:hover, .blog-single-entry.post-overlap > .commententries #respond h3#reply-title small a:hover, .blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-title h1 a, .blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-bottom-details > * i,.blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-bottom-details > * a, .blog-single-entry.post-overlap > .entry-tags a,.blog-single-entry.post-overlap > .entry-social-share .share .dt-share-list li a,.blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div > a,.blog-single-entry.post-overlap > .entry-categories a,.blog-single-entry.post-overlap .entry-author > .author-wrap > a,.blog-single-entry.post-overlap > div.entry-meta-group .entry-tags a, .blog-single-entry.post-overlap > div.entry-meta-group .share .dt-share-list li a,.blog-single-entry.post-overlap > div.entry-meta-group .entry-likes-views .dt-sc-like-views > div > a,.blog-single-entry.post-overlap > div.entry-meta-group > .entry-categories a,.blog-single-entry.post-overlap > div.entry-meta-group > .entry-author > .author-wrap > a,.blog-single-entry.post-overlap > .entry-author-bio > .details h3 > a,.blog-single-entry.post-overlap > .entry-title h1 a,.blog-single-entry.post-overlap > .commententries #respond h3#reply-title small a, .blog-single-entry.post-overlap > div.entry-meta-group .entry-date .date-wrap, .blog-single-entry.post-overlap > .entry-date .date-wrap, .blog-single-entry.post-overlap > div.entry-meta-group .entry-comments a, .blog-single-entry.post-overlap > .entry-comments a, .blog-single-entry.post-overlap > div.entry-meta-group .entry-likes-views .dt-sc-like-views > div { color: var(--DTTertiaryColor); } 
+
+	.blog-single-entry.post-overlap > .entry-thumb > .entry-format > a,.blog-single-entry.post-overlap > .entry-comments a:hover i,.blog-single-entry.post-overlap > .entry-author > .author-wrap:hover i,.blog-single-entry.post-overlap > .entry-date > .date-wrap:hover i,.blog-single-entry.post-overlap > .entry-categories > .category-wrap:hover i,.blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div:hover > i, .blog-single-entry.post-overlap > div.entry-meta-group .entry-comments a:hover i,.blog-single-entry.post-overlap > div.entry-meta-group .entry-author > .author-wrap:hover i,.blog-single-entry.post-overlap > div.entry-meta-group .entry-date > .date-wrap:hover i,.blog-single-entry.post-overlap > div.entry-meta-group > .entry-categories > .category-wrap:hover i,.blog-single-entry.post-overlap > div.entry-meta-group .entry-likes-views .dt-sc-like-views > div:hover > i, .blog-single-entry.post-overlap > .entry-author i, .blog-single-entry.post-overlap > .entry-author-bio > .details h3:before, .blog-single-entry.post-overlap > .entry-categories > .category-wrap > i, .blog-single-entry.post-overlap > .entry-comments a i, .blog-single-entry.post-overlap > .entry-date .date-wrap i, .blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div > i, .blog-single-entry.post-overlap > .entry-social-share .share .dt-share-list li a:hover, .blog-single-entry.post-overlap > .entry-tags a:hover, .blog-single-entry.post-overlap > div.entry-meta-group .entry-author i, .blog-single-entry.post-overlap > div.entry-meta-group .entry-comments a i, .blog-single-entry.post-overlap > div.entry-meta-group .entry-date .date-wrap i, .blog-single-entry.post-overlap > div.entry-meta-group .entry-likes-views .dt-sc-like-views > div > i, .blog-single-entry.post-overlap > div.entry-meta-group .entry-tags a:hover, .blog-single-entry.post-overlap > div.entry-meta-group .share .dt-share-list li a:hover, .blog-single-entry.post-overlap > div.entry-meta-group > .entry-categories > .category-wrap > i { background-color: var(--DTPrimaryColor); } 
+
+		
+	.blog-single-entry.post-overlap > .entry-comments a:hover,.blog-single-entry.post-overlap > .entry-author > .author-wrap:hover,.blog-single-entry.post-overlap > .entry-date > .date-wrap:hover,.blog-single-entry.post-overlap > .entry-categories > .category-wrap:hover,.blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div:hover,.blog-single-entry.post-overlap > div.entry-meta-group .entry-comments a:hover,.blog-single-entry.post-overlap > div.entry-meta-group .entry-author > .author-wrap:hover,.blog-single-entry.post-overlap > div.entry-meta-group .entry-date > .date-wrap:hover,.blog-single-entry.post-overlap > div.entry-meta-group > .entry-categories > .category-wrap:hover,.blog-single-entry.post-overlap > div.entry-meta-group .entry-likes-views .dt-sc-like-views > div:hover, .blog-single-entry.post-overlap > .entry-tags a,.blog-single-entry.post-overlap > .entry-social-share .share .dt-share-list li a,.blog-single-entry.post-overlap > .entry-comments a,.blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div,.blog-single-entry.post-overlap > .entry-tags a,.blog-single-entry.post-overlap > .entry-social-share .share .dt-share-list li a,.blog-single-entry.post-overlap > .entry-comments a,.blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div,.blog-single-entry.post-overlap > div.entry-meta-group .entry-tags a,.blog-single-entry.post-overlap > div.entry-meta-group .share .dt-share-list li a,.blog-single-entry.post-overlap > div.entry-meta-group:before,.blog-single-entry.post-overlap > div.entry-meta-group:after, .blog-single-entry.post-overlap > div.entry-meta-group .entry-comments a,.blog-single-entry.post-overlap > div.entry-meta-group .entry-likes-views .dt-sc-like-views > div, .blog-single-entry.post-overlap > .entry-related-posts > h4, .blog-single-entry.post-overlap > div.entry-meta-group > .entry-categories > .category-wrap, .blog-single-entry.post-overlap > .entry-categories > .category-wrap, .blog-single-entry.post-overlap > div.entry-meta-group > .entry-author > .author-wrap, .blog-single-entry.post-overlap > .entry-author > .author-wrap { border-color: var(--DTPrimaryColor); }	 
+
+
+	/* Secondary */
+	.blog-single-entry.post-overlap > .entry-meta-group > .entry-categories > .category-wrap > a:hover, .blog-single-entry.post-overlap > .entry-categories > .category-wrap > a:hover, .blog-single-entry.post-overlap > .entry-meta-group .entry-likes-views .dt-sc-like-views > div > a:hover, .blog-single-entry.post-overlap > .entry-meta-group > .entry-author > .author-wrap > a:hover, .blog-single-entry.post-overlap > .entry-author > .author-wrap > a:hover { color: var(--DTSecondaryColor); } 
+
+
+	.blog-single-entry.post-overlap div[class*="meta-elements-"].entry-social-share:hover .share i, .blog-single-entry.post-overlap div[class*="meta-elements-filled"].entry-social-share .share i { background-color: var(--DTSecondaryColor); }
+	
+
+
+/*--------------------------------------------------------------
+    Responsive
+--------------------------------------------------------------*/
+
+	@media only screen and (min-width:1281px) {
+	
+		.blog-single-entry.post-overlap { float: none; margin: 0 auto; width: 80%; }
+	
+    }
+    
+
+	/*----*****---- << iPad - Landscape >> ----*****----*/
+	@media only screen and (min-width:1025px) and (max-width:1280px) {
+
+		/* Post Overlap */
+		.page-with-sidebar .blog-single-entry.post-overlap > .entry-post-navigation > div > h3 {font-size: 16px; }
+
+    }    
+
+
+
+	/* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:1024px) {
+
+		/* Post Overlap */
+
+		.blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-title h1,
+		.page-with-sidebar .blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-title h1 { font-size: 20px; }
+		.page-with-sidebar .blog-single-entry.post-overlap > .entry-post-navigation > div { margin: 0 0 2% 0; width: 100%; }
+
+    }
+
+
+	/* Common Styles for the devices below 767px width */
+	@media only screen and (max-width: 767px) {
+
+
+		/* Post Overlap */
+		.blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-title h1,
+		.page-with-sidebar .blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-title h1 { font-size: 20px; }
+		.blog-single-entry.post-overlap > .entry-post-navigation > div { margin: 0 0 2% 0; width: 100%; }
+
+		.blog-single-entry.post-overlap > .entry-thumb .entry-overlap { padding: 15px 15px 0 0; width: 95%; }
+		.blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-title { margin: 0 0 10px 0; }
+		.blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-title h1 { font-size: 15px; }		
+
+		.blog-single-entry.post-overlap > div.entry-meta-group > div { width: 100%; }
+
+		.blog-single-entry.post-overlap > div.entry-meta-group > div:nth-child(odd),
+		.blog-single-entry.post-overlap > div.entry-meta-group > div:nth-child(even){ float: none; text-align: center; margin-bottom: 15px; }
+		.blog-single-entry.post-overlap > div.entry-meta-group > div:last-child { margin-bottom: 0; }
+
+		.blog-single-entry.post-overlap > .entry-meta-group .entry-likes-views .dt-sc-like-views > div, .blog-single-entry.post-overlap > .entry-likes-views .dt-sc-like-views > div {float: none; }
+
+		.blog-single-entry.post-overlap > .entry-author-bio > .thumb { margin-bottom: 20px; width: 100%; }
+		.blog-single-entry.post-overlap > .entry-author-bio > .thumb img { max-width: 20%; }
+		.blog-single-entry.post-overlap > .entry-author-bio > .details { padding-left: 0; }
+
+		.page-with-sidebar .blog-single-entry.post-overlap > .entry-author-bio > .thumb { margin: 0 0 10px; position: relative; width: 20%; }
+		.page-with-sidebar .blog-single-entry.post-overlap > .entry-author-bio > .details { padding: 0; }
+
+		.blog-single-entry.post-overlap .post-prev-link { width: 100%; float: left; text-align: center; }
+		.blog-single-entry.post-overlap .post-next-link { width: 100%; float: right; text-align: center; }
+
+		.blog-single-entry.post-overlap > div > .entry-post-navigation > .post-prev-link { text-align: left; }
+
+		.blog-single-entry.post-overlap > .entry-post-navigation { display: block; }
+
+		.blog-single-entry.post-overlap .entry-body .entry-post-navigation > div:not(:last-child),
+		.blog-single-entry.post-overlap .entry-body .entry-post-navigation > div:last-child { width: 100%; text-align: center; padding: 0 10px; }		
+
+    }
+    
+
+
+	/*----*****---- << Mobile - Portrait >> ----*****----*/
+	@media only screen and (max-width: 479px){
+
+	    /* Post Overlap */				
+		.blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-bottom-details > * { font-size: 11px; }
+
+		.page-with-sidebar .blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-title h1 { font-size: 18px; }
+
+
+	    .blog-single-entry.post-overlap > .entry-thumb .entry-overlap .entry-bottom-details > * {margin-right: 15px; }
+	    .blog-single-entry.post-overlap > .entry-author-bio > .thumb img {max-width: 25%; }
+	    .blog-single-entry.post-overlap > .entry-post-navigation > div > .nav-title-wrap > h3 {font-size: 14px; }
+
+	}
+        

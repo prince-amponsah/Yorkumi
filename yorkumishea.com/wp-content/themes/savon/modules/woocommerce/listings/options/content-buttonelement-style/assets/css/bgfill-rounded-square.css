@@ -1,0 +1,28 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Content Button Element Style */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-content-buttonelement-style-bgfill-rounded-square li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline { -webkit-border-radius: 5px; border-radius: 5px; }
+
+
+    .woocommerce ul.products[class*="product-content-buttonelement-style-bgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline:not(:hover) { background-color: rgba(var(--DTBlack_RGB), 0.075); }
+
+
+    .woocommerce ul.products[class*="product-content-buttonelement-style-bgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline:not(:hover) a:not(:hover),
+    .woocommerce ul.products[class*="product-content-buttonelement-style-bgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline:not(:hover) a.button:not(:hover),
+    .woocommerce ul.products[class*="product-content-buttonelement-style-bgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline:not(:hover) button:not(:hover),
+    .woocommerce ul.products[class*="product-content-buttonelement-style-bgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline:not(:hover) button.button:not(:hover),
+    .woocommerce ul.products[class*="product-content-buttonelement-style-bgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline:not(:hover) .button:not(:hover) { color: rgba(var(--DTBlack_RGB),0.8); }
+
+    .woocommerce ul.products[class*="product-content-buttonelement-style-bgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline a:hover,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-bgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline a.button:hover,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-bgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline button:hover,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-bgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline button.button:hover,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-bgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline .button:hover { color: var(--DTWhiteColor); }
+
+    
+    /* Accents - Primary */
+    .woocommerce ul.products[class*="product-content-buttonelement-style-bgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline:hover { background-color: var(--DTPrimaryColor); }  
+
+/* #endregion - Product Content Button Element Style */

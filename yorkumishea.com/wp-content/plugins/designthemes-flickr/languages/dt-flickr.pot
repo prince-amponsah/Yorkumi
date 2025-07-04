@@ -1,0 +1,62 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DThemes Flickr\n"
+"POT-Creation-Date: 2020-06-08 12:26+0530\n"
+"PO-Revision-Date: 2020-01-14 18:56+0530\n"
+"Last-Translator: \n"
+"Language-Team: DesignThemes <ram@iamdesigning.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-KeywordsList: __e;__;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: designthemes-flickr.php:99
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: designthemes-flickr.php:100
+msgid "DesignThemes Flickr"
+msgstr ""
+
+#: designthemes-flickr.php:101
+msgid "PHP"
+msgstr ""
+
+#: widget-flickr.php:7
+msgid "A widget that show last flickr photo streams"
+msgstr ""
+
+#: widget-flickr.php:9
+msgid "DThemes Flickr Widget"
+msgstr ""
+
+#: widget-flickr.php:31
+msgid "Title:"
+msgstr ""
+
+#: widget-flickr.php:38
+msgid "Flickr ID:"
+msgstr ""
+
+#: widget-flickr.php:45
+msgid "How many entries do you want to show:"
+msgstr ""
+
+#: widget-flickr.php:57
+msgid "What pictures to display"
+msgstr ""
+
+#: widget-flickr.php:60
+msgid "Latest"
+msgstr ""
+
+#: widget-flickr.php:61
+msgid "Random"
+msgstr ""

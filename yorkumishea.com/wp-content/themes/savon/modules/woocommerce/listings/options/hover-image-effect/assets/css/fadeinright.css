@@ -1,0 +1,8 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-hover-image-fadeinright li.product:not(.product-with-secondary-image):hover .product-thumb .image .primary-image { background-position:right center; }
+
+/* #endregion - Product Image Hover Effects */        

@@ -1,0 +1,1 @@
+<?php echo apply_filters( 'savon_footer_get_template_part', savon_get_template_part( 'footer', 'templates/footer', '', array() ) ); ?>

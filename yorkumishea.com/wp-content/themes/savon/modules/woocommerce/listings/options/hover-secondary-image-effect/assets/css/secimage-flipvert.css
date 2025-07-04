@@ -1,0 +1,20 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Secondary Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul[class*="product-hover-secimage"] li.product.product-with-secondary-image .product-thumb .image .primary-image,
+    .woocommerce ul[class*="product-hover-secimage"] li.product.product-with-secondary-image .product-thumb .image .secondary-image { -webkit-transition: all 0.35s ease; transition: all 0.35s ease; }
+
+
+    /* Secondary Image Hover Effect - FlipVertical
+    -------------------------------------------- */
+    .woocommerce ul.products.product-hover-secimage-flipvert li.product.product-with-secondary-image .product-thumb .image .primary-image, .woocommerce ul.products.product-hover-secimage-flipvert li.product.product-with-secondary-image .product-thumb .image .secondary-image { -webkit-transition: all 0.35s ease; -moz-transition: all 0.35s ease; transition: all 0.35s ease; } 
+
+    .woocommerce ul.products.product-hover-secimage-flipvert li.product.product-with-secondary-image:hover .product-thumb .image .primary-image { -webkit-transform: rotateY(-180deg); -moz-transform: rotateY(-180deg); -ms-transform: rotateY(-180deg); -o-transform: rotateY(-180deg); transform: rotateY(-180deg); opacity: 0; }
+
+    .woocommerce ul.products.product-hover-secimage-flipvert li.product.product-with-secondary-image .product-thumb .image .secondary-image { -webkit-transform: rotateY(90deg); -moz-transform: rotateY(90deg); -ms-transform: rotateY(90deg); -o-transform: rotateY(90deg); transform: rotateY(90deg); -webkit-transform-origin: 50% 0%; -moz-transform-origin: 50% 0%; -ms-transform-origin: 50% 0%; -o-transform-origin: 50% 0%; transform-origin: 50% 0%; opacity: 0; }
+
+    .woocommerce ul.products.product-hover-secimage-flipvert li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image { -webkit-transform: rotateY(0deg); -moz-transform: rotateY(0deg); -ms-transform: rotateY(0deg); -o-transform: rotateY(0deg); transform: rotateY(0deg); opacity: 1; -webkit-transition-delay: 0.14s; -moz-transition-delay: 0.14s; transition-delay: 0.14s; }
+
+/* #endregion - Secondary Image Hover Effects */        	    

@@ -1,0 +1,1517 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignThemes Portfolio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-10 14:17+0530\n"
+"PO-Revision-Date: 2019-07-19 11:26+0530\n"
+"Last-Translator: Admin <admin@iamdesigning.com>\n"
+"Language-Team: DesignThemes <support@designthemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../archive/core/tpl-portfolio-archive.php:200
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:1041
+msgid "No more records to load!"
+msgstr ""
+
+#: ../archive/core/tpl-portfolio-archive.php:241
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:212
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:1082
+msgid "Load More"
+msgstr ""
+
+#: ../archive/core/tpl-portfolio-archive.php:243
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:1084
+msgid "Scroll To Load More"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:19
+msgid "Portfolio Listing"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:39
+#: ../single/templates/custom-template/elementor/widgets/comment-form/class-widget-portfolio-single-comment-form.php:39
+#: ../single/templates/custom-template/elementor/widgets/comment-list/class-widget-portfolio-single-comment-list.php:39
+#: ../single/templates/custom-template/elementor/widgets/custom-details/class-widget-portfolio-single-custom-details.php:39
+#: ../single/templates/custom-template/elementor/widgets/featured-image/class-widget-portfolio-single-featured-image.php:39
+#: ../single/templates/custom-template/elementor/widgets/featured-video/class-widget-portfolio-single-featured-video.php:39
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:39
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:39
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:39
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:39
+#: ../single/templates/custom-template/elementor/widgets/terms/class-widget-portfolio-single-terms.php:39
+#: ../single/templates/custom-template/elementor/widgets/title/class-widget-portfolio-single-title.php:39
+msgid "General"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:45
+msgid "Portfolio Type"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:48
+msgid "Default Portfolio"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:49
+msgid "Related Portfolio"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:56
+msgid "Portfolio IDs"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:58
+msgid ""
+"Enter portfolio ids separated by comma to display portfolio items."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:64
+msgid "Posts Per Page"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:66
+msgid "Number of posts to show."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:73
+#: ../customizer/index.php:160
+msgid "Hover Style"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:76
+#: ../customizer/index.php:163
+msgid "Modern Title"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:77
+#: ../customizer/index.php:164
+msgid "Title & Icons Overlay"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:78
+#: ../customizer/index.php:165
+msgid "Title Overlay"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:79
+#: ../customizer/index.php:166
+msgid "Icons Only"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:80
+#: ../customizer/index.php:167
+msgid "Classic"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:81
+#: ../customizer/index.php:168
+msgid "Minimal Icons"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:82
+#: ../customizer/index.php:169
+msgid "Presentation"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:83
+#: ../customizer/index.php:170
+msgid "Girly"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:84
+#: ../customizer/index.php:171
+msgid "Art"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:85
+#: ../customizer/index.php:172
+msgid "Extended"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:86
+#: ../customizer/index.php:173
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:65
+msgid "Boxed"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:87
+#: ../customizer/index.php:174
+msgid "Centered Box"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:88
+#: ../customizer/index.php:175
+msgid "With Gallery Thumb"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:89
+#: ../customizer/index.php:176
+msgid "With Gallery List"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:90
+#: ../customizer/index.php:177
+msgid "Grayscale"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:91
+#: ../customizer/index.php:178
+msgid "Highlighter"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:92
+#: ../customizer/index.php:179
+msgid "With Details"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:93
+#: ../customizer/index.php:180
+msgid "Bottom Border"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:94
+#: ../customizer/index.php:181
+msgid "With Intro"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:101
+#: ../customizer/index.php:202
+msgid "Cursor Hover Style"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:104
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:252
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:284
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:394
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:442
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:562
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:773
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:880
+#: ../customizer/index.php:162 ../customizer/index.php:204
+#: ../single/templates/custom-template/elementor/widgets/custom-details/class-widget-portfolio-single-custom-details.php:56
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:56
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:64
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:102
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:220
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:291
+msgid "Default"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:105
+#: ../customizer/index.php:205
+msgid "Style 1"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:106
+#: ../customizer/index.php:206
+msgid "Style 2"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:107
+#: ../customizer/index.php:207
+msgid "Style 3"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:108
+#: ../customizer/index.php:208
+msgid "Style 4"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:109
+#: ../customizer/index.php:209
+msgid "Style 5"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:110
+#: ../customizer/index.php:210
+msgid "Style 6"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:117
+msgid "Featured Display"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:120
+#: ../single/templates/media-on-top/index.php:36
+msgid "Image"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:121
+#: ../single/templates/media-on-top/index.php:37
+msgid "Video"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:131
+#: ../single/metabox/index.php:157
+msgid "Masonry Size"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:134
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:226
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:314
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:330
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:366
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:380
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:421
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:482
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:522
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:644
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:662
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:680
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:698
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:736
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:755
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:791
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:809
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:845
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:83
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:94
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:126
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:64
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:75
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:146
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:158
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:170
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:196
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:208
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:232
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:244
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:268
+#: ../single/templates/custom-template/elementor/widgets/terms/class-widget-portfolio-single-terms.php:67
+msgid "False"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:135
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:227
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:315
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:331
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:367
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:381
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:422
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:483
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:523
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:645
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:663
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:681
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:699
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:737
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:756
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:792
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:810
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:846
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:84
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:95
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:127
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:65
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:76
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:147
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:159
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:171
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:197
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:209
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:233
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:245
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:269
+#: ../single/templates/custom-template/elementor/widgets/terms/class-widget-portfolio-single-terms.php:68
+msgid "True"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:160
+#: ../register/taxonomy-category.php:57
+msgid "Categories"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:184
+#: ../register/taxonomy-tag.php:56
+msgid "Tags"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:193
+msgid "Show Details Below Image"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:196
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:210
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:269
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:716
+#: ../single/metabox/index.php:159
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:182
+msgid "None"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:197
+msgid "Details Below Image"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:207
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:713
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:179
+msgid "Pagination Type"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:211
+msgid "Numbered Pagination"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:213
+msgid "Lazy Load"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:223
+msgid "Enable Fullwidth"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:234
+#: ../single/templates/custom-template/elementor/widgets/comment-form/class-widget-portfolio-single-comment-form.php:69
+#: ../single/templates/custom-template/elementor/widgets/comment-list/class-widget-portfolio-single-comment-list.php:45
+#: ../single/templates/custom-template/elementor/widgets/custom-details/class-widget-portfolio-single-custom-details.php:66
+#: ../single/templates/custom-template/elementor/widgets/featured-image/class-widget-portfolio-single-featured-image.php:53
+#: ../single/templates/custom-template/elementor/widgets/featured-video/class-widget-portfolio-single-featured-video.php:53
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:134
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:66
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:83
+#: ../single/templates/custom-template/elementor/widgets/terms/class-widget-portfolio-single-terms.php:75
+#: ../single/templates/custom-template/elementor/widgets/title/class-widget-portfolio-single-title.php:53
+msgid "Class"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:244
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:249
+#: ../single/metabox/index.php:46
+msgid "Post Style"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:253
+msgid "Full Page"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:254
+msgid "Parallax"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:255
+msgid "Striped"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:256
+msgid "Fixed"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:257
+msgid "Framed"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:258
+msgid "Multi Scroll"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:260
+msgid ""
+"\"Full Page\", \"Multi Scroll\" will work correctly when compatible "
+"header and footer is used."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:266
+msgid "Fullpage Navigation Position"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:270
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:77
+#: ../single/templates/fixed-gallery/index.php:43
+#: ../single/templates/fixed-image/index.php:43
+#: ../single/templates/gallery-list/index.php:36
+msgid "Left"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:271
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:78
+#: ../single/templates/fixed-gallery/index.php:44
+#: ../single/templates/fixed-image/index.php:44
+#: ../single/templates/gallery-list/index.php:37
+msgid "Right"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:281
+msgid "Fullpage Type"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:285
+msgid "Splitted Section"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:295
+msgid "Fullpage Splitted Sections"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:298
+msgid "Leftside Image"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:299
+msgid "Rightside Image"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:300
+msgid "Alternate Content"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:311
+msgid "Disable Mouse Scrolling"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:327
+msgid "Enable Arrows"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:341
+msgid "Columns"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:344
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:64
+msgid "I Column"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:345
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:65
+msgid "II Columns"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:346
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:66
+msgid "III Columns"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:347
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:67
+msgid "IV Columns"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:348
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:68
+msgid "V Columns"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:349
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:69
+msgid "VI Columns"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:350
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:70
+msgid "VII Columns"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:351
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:71
+msgid "VIII Columns"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:352
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:72
+msgid "IX Columns"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:353
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:73
+msgid "X Columns"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:363
+#: ../customizer/index.php:230
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:80
+msgid "Grid Space"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:377
+msgid "Filter"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:391
+msgid "Filter Design Type"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:395
+msgid "Type 1"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:396
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:774
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:881
+#: ../single/templates/custom-template/elementor/widgets/custom-details/class-widget-portfolio-single-custom-details.php:57
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:57
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:221
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:292
+msgid "Type 2"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:397
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:882
+#: ../single/templates/custom-template/elementor/widgets/custom-details/class-widget-portfolio-single-custom-details.php:58
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:58
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:293
+msgid "Type 3"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:412
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:418
+msgid "Disable Individual Item Options"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:429
+#: ../single/metabox/index.php:175
+msgid "Hover Background Color"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:439
+#: ../single/metabox/index.php:180
+msgid "Hover Content Color"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:443
+msgid "Hover Content Color Dark"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:444
+msgid "Hover Content Color Light"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:454
+msgid "Hover Gradient Color"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:464
+msgid "Hover Gradient Direction"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:467
+msgid "Left to Right"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:468
+msgid "Top to Bottom"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:469
+msgid "Diagonal"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:479
+#: ../single/metabox/index.php:205
+msgid "Hover State"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:495
+#: ../single/metabox/index.php:210
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:105
+msgid "Animation Effect"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:506
+#: ../single/metabox/index.php:216
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:113
+msgid "Animation Delay"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:519
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:123
+msgid "Repeat Animation"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:536
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:546
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:93
+msgid "Carousel"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:542
+msgid "Display Style"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:545
+msgid "List"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:548
+msgid "Select display style for your portfolio."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:559
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:99
+msgid "Effect"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:563
+msgid "Multi Rows"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:565
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:107
+msgid ""
+"Choose effect for your carousel. Slides Per View has to be 1 for "
+"Cube and Fade effect."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:577
+msgid "Number of Rows"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:586
+msgid ""
+"Number rows to show, it will work along with multi row effect only."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:599
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:113
+msgid "Auto Play"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:615
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:123
+msgid "Slides Per View"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:629
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:137
+msgid "Number slides of to show in view port."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:641
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:143
+msgid "Enable Loop Mode"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:647
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:149
+msgid ""
+"If you wish you can enable continous loop mode for your carousel. "
+"Thumbnail pagination wont work along with \"Loop Mode\"."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:659
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:155
+msgid "Enable Mousewheel Control"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:665
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:161
+msgid ""
+"If you wish you can enable mouse wheel control for your carousel."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:677
+msgid "Enable Centered Mode"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:683
+msgid "If you wish you can enable centered mode for your carousel."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:695
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:167
+msgid "Enable Vertical Direction"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:701
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:173
+msgid "To make your slides to navigate vertically."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:717
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:183
+msgid "Bullets"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:718
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:184
+msgid "Fraction"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:719
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:185
+msgid "Progress Bar"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:721
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:187
+msgid "Choose pagination type you like to use."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:733
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:193
+msgid "Enable Thumbnail Pagination"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:739
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:199
+msgid "To enable thumbnail pagination."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:752
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:205
+msgid "Enable Arrow Pagination"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:758
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:211
+msgid "To enable arrow pagination."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:770
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:217
+msgid "Arrow Type"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:776
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:223
+msgid "Choose arrow pagination type for your carousel."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:788
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:229
+msgid "Enable Scrollbar"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:794
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:235
+msgid "To enable scrollbar for your carousel."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:806
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:241
+msgid "Enable Arrow For Mouse Pointer"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:812
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:247
+msgid "To enable arrow for mouse pointer for your carousel."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:824
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:253
+msgid "Pagination Color Scheme"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:827
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:256
+msgid "Light"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:828
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:257
+msgid "Dark"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:830
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:259
+msgid "Choose pagination color scheme for your carousel."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:842
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:265
+msgid "Enable Play/Pause Button"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:848
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:271
+msgid "To enable play pause button for your carousel."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:860
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:277
+msgid "Space Between Sliders"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:861
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:278
+msgid "Space between sliders can be given here."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:877
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:288
+msgid "Overall Pagination Design Types"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:884
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:295
+msgid "Choose overall pagination design type for your carousel."
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:896
+msgid "Content Over Slider"
+msgstr ""
+
+#: ../archive/elementor/widgets/portfolio-listing/class-widget-portfolio-listing.php:897
+msgid ""
+"If you like to show any content over slider you can add it here."
+msgstr ""
+
+#: ../archive/templates/base.php:231
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:470
+#: ../single/templates/fixed-gallery/index.php:174
+msgid "Prev"
+msgstr ""
+
+#: ../archive/templates/base.php:232
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:471
+#: ../single/templates/fixed-gallery/index.php:175
+msgid "Next"
+msgstr ""
+
+#: ../archive/templates/base.php:295
+msgid "All"
+msgstr ""
+
+#: ../archive/templates/parts/image-overlay.php:235
+msgid "View Gallery"
+msgstr ""
+
+#: ../customizer/index.php:48
+msgid "DesignThemes - Portfolio - Archive"
+msgstr ""
+
+#: ../customizer/index.php:66
+msgid "Sidebar Layout"
+msgstr ""
+
+#: ../customizer/index.php:70
+msgid "Without Sidebar"
+msgstr ""
+
+#: ../customizer/index.php:74
+msgid "With Left Sidebar"
+msgstr ""
+
+#: ../customizer/index.php:78
+msgid "With Right Sidebar"
+msgstr ""
+
+#: ../customizer/index.php:103
+msgid "Sidebar?"
+msgstr ""
+
+#: ../customizer/index.php:123
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:61
+msgid "Post Layout"
+msgstr ""
+
+#: ../customizer/index.php:127
+msgid "One Column"
+msgstr ""
+
+#: ../customizer/index.php:131
+msgid "Two Columns"
+msgstr ""
+
+#: ../customizer/index.php:135
+msgid "Three Columns"
+msgstr ""
+
+#: ../customizer/index.php:139
+msgid "Four Columns"
+msgstr ""
+
+#: ../customizer/index.php:183
+msgid "Choose the hover style."
+msgstr ""
+
+#: ../customizer/index.php:212
+msgid "Choose the cursor hover style."
+msgstr ""
+
+#: ../customizer/index.php:231
+msgid "YES! to use grid space between items."
+msgstr ""
+
+#: ../customizer/index.php:234 ../customizer/index.php:258
+#: ../customizer/index.php:283
+msgid "Yes"
+msgstr ""
+
+#: ../customizer/index.php:235 ../customizer/index.php:259
+#: ../customizer/index.php:284
+msgid "No"
+msgstr ""
+
+#: ../customizer/index.php:254
+msgid "Full Width"
+msgstr ""
+
+#: ../customizer/index.php:255
+msgid "YES! to allow full width display."
+msgstr ""
+
+#: ../customizer/index.php:279
+msgid "Individual Item Option"
+msgstr ""
+
+#: ../customizer/index.php:280
+msgid "YES! to disable individual item options."
+msgstr ""
+
+#: ../designthemes-portfolio.php:79
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: ../designthemes-portfolio.php:80
+msgid "DesignThemes Portfolio Plugin"
+msgstr ""
+
+#: ../designthemes-portfolio.php:81
+msgid "DesignThemes Framework Plugin"
+msgstr ""
+
+#: ../elementor/index.php:86
+#, php-format
+msgid "\"%1$s\" recommends \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: ../elementor/index.php:87 ../elementor/index.php:103
+#: ../elementor/index.php:120
+msgid "DesignThemes Theme Plugin"
+msgstr ""
+
+#: ../elementor/index.php:88 ../elementor/index.php:104
+msgid "Elementor"
+msgstr ""
+
+#: ../elementor/index.php:102 ../elementor/index.php:119
+#, php-format
+msgid "\"%1$s\" recommends \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: ../elementor/index.php:121
+msgid "PHP"
+msgstr ""
+
+#: ../elementor/index.php:136
+msgid "DesignThemes - Portfolio"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:32
+msgid "Portfolio base"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:57
+#: ../register/post-type-portfolio.php:81
+msgid "Portfolios"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:58
+msgid "Portfolio"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:59
+msgid "Portfolio Item Archives"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:60
+msgid "Portfolio Item Attributes"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:61
+msgid "Portfolio Parent Item:"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:62
+msgid "All Portfolios"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:63
+msgid "Add New Portfolio"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:64
+#: ../register/taxonomy-custom-fields.php:34
+msgid "Add New"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:65
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:66
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:67
+msgid "Update Portfolio Item"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:68
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:69
+msgid "View Portfolio Items"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:70
+msgid "Search Portfolio Item"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:71
+msgid "Not found"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:72
+msgid "Not found in Trash"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:73
+msgid "Insert into item"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:74
+msgid "Uploaded to this item"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:75
+msgid "Portfolio Items list"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:76
+msgid "Portfolio Items list navigation"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:77
+msgid "Filter portfolio items list"
+msgstr ""
+
+#: ../register/post-type-portfolio.php:82
+msgid "This is custom post type portfolios."
+msgstr ""
+
+#: ../register/taxonomy-category.php:32
+msgid "Portfolio Category base"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:31
+msgid "Extra Fields"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:32
+msgid "All Fields"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:33
+msgid "Add New Field"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:35
+msgid "New Field"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:36
+msgid "Edit Field"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:37
+msgid "Update Field Item"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:38
+msgid "View Field Item"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:39
+msgid "View Field Items"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:40
+msgid "Search Field Item"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:91
+msgid "Field Type?"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:93
+msgid "Text"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:94
+#: ../register/taxonomy-custom-fields.php:134
+msgid "Link"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:139
+msgid "Link Text"
+msgstr ""
+
+#: ../register/taxonomy-custom-fields.php:144
+msgid "Open in New Window"
+msgstr ""
+
+#: ../register/taxonomy-tag.php:31
+msgid "Portfolio Tag base"
+msgstr ""
+
+#: ../single/metabox/index.php:94
+#: ../single/templates/custom-template/elementor/widgets/featured-image/class-widget-portfolio-single-featured-image.php:83
+msgid "Featured Image"
+msgstr ""
+
+#: ../single/metabox/index.php:95
+msgid "Set Featured Image"
+msgstr ""
+
+#: ../single/metabox/index.php:101
+msgid "Gallery Items"
+msgstr ""
+
+#: ../single/metabox/index.php:102
+msgid "Add"
+msgstr ""
+
+#: ../single/metabox/index.php:103
+msgid "Edit"
+msgstr ""
+
+#: ../single/metabox/index.php:104
+msgid "Remove"
+msgstr ""
+
+#: ../single/metabox/index.php:109
+msgid "Video Type?"
+msgstr ""
+
+#: ../single/metabox/index.php:111
+msgid "Oembed"
+msgstr ""
+
+#: ../single/metabox/index.php:112
+msgid "Self Hosted"
+msgstr ""
+
+#: ../single/metabox/index.php:120 ../single/metabox/index.php:126
+msgid "Video Link"
+msgstr ""
+
+#: ../single/metabox/index.php:160
+msgid "Grid Size 1"
+msgstr ""
+
+#: ../single/metabox/index.php:161
+msgid "Grid Size 2"
+msgstr ""
+
+#: ../single/metabox/index.php:162
+msgid "Grid Size 3"
+msgstr ""
+
+#: ../single/metabox/index.php:163
+msgid "Grid Size 4"
+msgstr ""
+
+#: ../single/metabox/index.php:164
+msgid "Grid Size 5"
+msgstr ""
+
+#: ../single/metabox/index.php:165
+msgid "Grid Size 6"
+msgstr ""
+
+#: ../single/metabox/index.php:166
+msgid "Grid Size 7"
+msgstr ""
+
+#: ../single/metabox/index.php:167
+msgid "Grid Size 8"
+msgstr ""
+
+#: ../single/metabox/index.php:168
+msgid "Grid Size 9"
+msgstr ""
+
+#: ../single/metabox/index.php:190
+msgid "Gradient Second Color"
+msgstr ""
+
+#: ../single/metabox/index.php:195
+msgid "Gradient Direction"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/comment-form/class-widget-portfolio-single-comment-form.php:19
+msgid "Portfolio Single - Comment Form"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/comment-form/class-widget-portfolio-single-comment-form.php:45
+#: ../single/templates/custom-template/elementor/widgets/custom-details/class-widget-portfolio-single-custom-details.php:45
+#: ../single/templates/custom-template/elementor/widgets/featured-image/class-widget-portfolio-single-featured-image.php:45
+#: ../single/templates/custom-template/elementor/widgets/featured-video/class-widget-portfolio-single-featured-video.php:45
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:45
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:45
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:45
+#: ../single/templates/custom-template/elementor/widgets/terms/class-widget-portfolio-single-terms.php:45
+#: ../single/templates/custom-template/elementor/widgets/title/class-widget-portfolio-single-title.php:45
+msgid "Portfolio ID"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/comment-form/class-widget-portfolio-single-comment-form.php:47
+#: ../single/templates/custom-template/elementor/widgets/custom-details/class-widget-portfolio-single-custom-details.php:47
+#: ../single/templates/custom-template/elementor/widgets/featured-image/class-widget-portfolio-single-featured-image.php:47
+#: ../single/templates/custom-template/elementor/widgets/featured-video/class-widget-portfolio-single-featured-video.php:47
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:47
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:47
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:47
+#: ../single/templates/custom-template/elementor/widgets/terms/class-widget-portfolio-single-terms.php:47
+#: ../single/templates/custom-template/elementor/widgets/title/class-widget-portfolio-single-title.php:47
+msgid ""
+"Enter portfolio id here. If you are going to use this shortcode in "
+"portfolio single page no need to give portfolio id."
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/comment-form/class-widget-portfolio-single-comment-form.php:53
+msgid "Form Title"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/comment-form/class-widget-portfolio-single-comment-form.php:55
+msgid "If you wish you can provide form title here."
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/comment-form/class-widget-portfolio-single-comment-form.php:61
+msgid "Form Submit Button Label"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/comment-form/class-widget-portfolio-single-comment-form.php:63
+msgid "If you wish you can provide form submit button label here."
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/comment-form/class-widget-portfolio-single-comment-form.php:71
+#: ../single/templates/custom-template/elementor/widgets/comment-list/class-widget-portfolio-single-comment-list.php:47
+#: ../single/templates/custom-template/elementor/widgets/custom-details/class-widget-portfolio-single-custom-details.php:68
+#: ../single/templates/custom-template/elementor/widgets/featured-image/class-widget-portfolio-single-featured-image.php:55
+#: ../single/templates/custom-template/elementor/widgets/featured-video/class-widget-portfolio-single-featured-video.php:55
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:136
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:68
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:85
+#: ../single/templates/custom-template/elementor/widgets/terms/class-widget-portfolio-single-terms.php:77
+#: ../single/templates/custom-template/elementor/widgets/title/class-widget-portfolio-single-title.php:55
+msgid "If you wish you can add additional class name here."
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/comment-form/class-widget-portfolio-single-comment-form.php:91
+msgid "Comments are closed."
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/comment-form/class-widget-portfolio-single-comment-form.php:97
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/comment-form/class-widget-portfolio-single-comment-form.php:103
+msgid "Comment"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/comment-list/class-widget-portfolio-single-comment-list.php:19
+msgid "Portfolio Single - Comment List"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/custom-details/class-widget-portfolio-single-custom-details.php:19
+msgid "Portfolio Single - Custom Details"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/custom-details/class-widget-portfolio-single-custom-details.php:53
+msgid "Types"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/custom-details/class-widget-portfolio-single-custom-details.php:60
+msgid "Select the type of custom details."
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/featured-image/class-widget-portfolio-single-featured-image.php:19
+msgid "Portfolio Single - Featured Image"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/featured-video/class-widget-portfolio-single-featured-video.php:19
+msgid "Portfolio Single - Featured Video"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:19
+msgid "Portfolio Single - Gallery Listings"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:53
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:53
+msgid "Gallery ID(s)"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:55
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:55
+msgid ""
+"Comma separated gallery item ids to display particular gallery "
+"items only."
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/gallery-listings/class-widget-portfolio-single-gallery-listings.php:91
+msgid "Hover Design"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:19
+msgid "Portfolio Single - Navigation Links"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:53
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:61
+msgid "Type"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:59
+msgid "Type 4"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:98
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:116
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:155
+msgid "Prev Entry"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:104
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:126
+#: ../single/templates/custom-template/elementor/widgets/navigation-links/class-widget-portfolio-single-navigation-links.php:163
+msgid "Next Entry"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:19
+msgid "Portfolio Single - Onepage Navigation Title Holder"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:45
+msgid "Navigation IDs"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:47
+msgid "Enter navigation ids separated by commas."
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:53
+msgid "Navigation Titles"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:55
+msgid "Enter navigation titles separated by commas."
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:66
+msgid "Rounded"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:74
+msgid "Position"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:79
+msgid "Bottom Left"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/one-page-navigation/class-widget-portfolio-single-onepage-navigation-title-holder.php:80
+msgid "Bottom Right"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:19
+msgid "Portfolio Single - Sliders"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:61
+msgid "Include Feature Image"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:72
+msgid "Include Feature Video"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:103
+msgid "Cube"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:104
+msgid "Fade"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:105
+msgid "Flip"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:394
+#: ../single/templates/custom-template/elementor/widgets/sliders/class-widget-portfolio-single-sliders.php:413
+msgid "Gallery Image"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/terms/class-widget-portfolio-single-terms.php:19
+msgid "Portfolio Single - Terms"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/terms/class-widget-portfolio-single-terms.php:53
+msgid "Term?"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/terms/class-widget-portfolio-single-terms.php:56
+msgid "Category"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/terms/class-widget-portfolio-single-terms.php:57
+msgid "Tag"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/terms/class-widget-portfolio-single-terms.php:64
+msgid "With Icon"
+msgstr ""
+
+#: ../single/templates/custom-template/elementor/widgets/title/class-widget-portfolio-single-title.php:19
+msgid "Portfolio Single - Title"
+msgstr ""
+
+#: ../single/templates/custom-template/index.php:29
+msgid "Custom Template"
+msgstr ""
+
+#: ../single/templates/fixed-gallery/index.php:25
+msgid "Fixed Gallery"
+msgstr ""
+
+#: ../single/templates/fixed-gallery/index.php:35
+#: ../single/templates/fixed-image/index.php:35
+msgid "Sidebar Layout not work for this post style."
+msgstr ""
+
+#: ../single/templates/fixed-gallery/index.php:41
+#: ../single/templates/gallery-list/index.php:34
+msgid "Gallery Position"
+msgstr ""
+
+#: ../single/templates/fixed-gallery/index.php:53
+#: ../single/templates/fixed-image/index.php:53
+msgid "Enable Transparent Header"
+msgstr ""
+
+#: ../single/templates/fixed-image/index.php:25
+msgid "Fixed Featured Image"
+msgstr ""
+
+#: ../single/templates/fixed-image/index.php:41
+msgid "Image Position"
+msgstr ""
+
+#: ../single/templates/gallery-list/index.php:25
+msgid "Gallery List"
+msgstr ""
+
+#: ../single/templates/media-on-top/index.php:25
+msgid "Media On Top"
+msgstr ""
+
+#: ../single/templates/media-on-top/index.php:34
+msgid "Media Type"
+msgstr ""

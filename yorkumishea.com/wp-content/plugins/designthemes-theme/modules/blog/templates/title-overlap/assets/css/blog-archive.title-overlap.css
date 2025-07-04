@@ -1,0 +1,122 @@
+
+/*----*****---- << Title Overlap Style >> ----*****----*/
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry:before { content: ""; display: inline-block; height: 100%; opacity: 0; position: absolute; left: 0; top: 0; visibility: hidden; width: 100%; z-index: 1; transition: all 0.3s linear 0s; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry.sticky:before, .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry:hover:before { opacity: 1; visibility: visible; pointer-events: none; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div:first-child:not(.entry-thumb) { margin-top: 20px; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-title { position: relative; z-index: 1; }
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-title:not(:last-child) { margin-bottom: 30px; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-title h4 a { vertical-align: text-top; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry .entry-title h4 span.sticky-post { background: none; left: 0; right: auto; }
+    .dt-sc-title-overlap-style.dt-sc-post-entry.alignright .blog-entry .entry-title h4 span.sticky-post, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-title h4 span.sticky-post { left: auto; right: 0; }
+    .dt-sc-title-overlap-style.dt-sc-post-entry.entry-grid-layout .blog-entry > div.entry-title, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-title { padding-top: 30px; padding-bottom: 35px; width: auto; }
+    .dt-sc-title-overlap-style.dt-sc-post-entry.entry-grid-layout.alignleft .blog-entry > div.entry-title, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-grid-layout.alignnone .blog-entry > div.entry-title, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-left-thumb .blog-entry:not(.has-post-thumbnail) > div.entry-title { margin-left: 20px; padding-left: 20px; padding-right: 20px; }
+    .dt-sc-title-overlap-style.dt-sc-post-entry.entry-grid-layout.alignright .blog-entry > div.entry-title, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry:not(.has-post-thumbnail) > div.entry-title { margin-right: 20px; padding-left: 20px; padding-right: 20px; }
+    .dt-sc-title-overlap-style.dt-sc-post-entry.entry-grid-layout.aligncenter .blog-entry > div.entry-title { width: 75%; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry.entry-left-thumb .blog-entry > div.entry-title { margin-left: -35px; }
+    .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-title { margin-right: -35px; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry.entry-grid-layout .blog-entry:not(.has-post-media) > div.entry-thumb + div.entry-title { margin-top: -25px; top: -25px; margin-bottom: 0; }
+    .dt-sc-title-overlap-style.dt-sc-post-entry.entry-grid-layout .blog-entry:not(.has-post-thumbnail) > div.entry-thumb + div.entry-title { margin-top: 25px; top: 0; margin-bottom: 25px; }
+    
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-title:before, .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-title:after { content: ""; display: inline-block; height: 100%; position: absolute; left: 0; top: 0; width: 150px; z-index: -1; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry.aligncenter .blog-entry > div.entry-title:before, .dt-sc-title-overlap-style.dt-sc-post-entry.aligncenter .blog-entry > div.entry-title:after { left: 0; right: 0; width: auto; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry.aligncenter .blog-entry > div.entry-title:after { margin: 10px -10px -10px; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry.alignright .blog-entry > div.entry-title:before, .dt-sc-title-overlap-style.dt-sc-post-entry.alignright .blog-entry > div.entry-title:after, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-title:before, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-title:after { left: auto; right: 0; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-title:after { border-style: solid; border-width: 1px; margin: 10px -10px -10px 10px; z-index: -2; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry.alignright .blog-entry > div.entry-title:after, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-title:after { margin: 10px 10px -10px -10px; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry.type-post .entry-format { left: auto; right: 0; }
+    
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-meta-group:not(:last-child) { border-width: 0; padding-top: 0; padding-bottom: 0; }
+    .dt-sc-title-overlap-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-thumb + div.entry-meta-group { margin-top: 25px; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div { display: inline-block; text-transform: capitalize; vertical-align: middle; }
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:not(:last-child) { margin-right: 10px; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div, .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:last-child, .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:nth-last-child(-n+2) { margin-bottom: 10px; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry .entry-likes-views .dt-sc-like-views { display: inline-block; }  
+
+
+/*--------------------------------------------------------------
+    Colors
+--------------------------------------------------------------*/
+
+    /*----*****---- << Dark >> ----*****----*/
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-title h4 a:hover { color: rgba(var(--DTBlack_RGB),0.65); }
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry .entry-title h4 span.sticky-post i { color: var(--DTBlackColor); }    
+
+
+    /*----*****---- << Light >> ----*****----*/          
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-title:before { background-color: #f2f5f6 }
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-title:after { border-color: #f0f0f0; }
+    .dt-sc-grungy-boxed-style.dt-sc-post-entry .blog-entry { background-color: #f0f0f0; }
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry { -webkit-box-shadow: 0 0 0 1px rgba(var(--DTBlack_RGB),0.08) inset; box-shadow: 0 0 0 1px rgba(var(--DTBlack_RGB),0.08) inset; }
+
+    
+/*--------------------------------------------------------------
+    Accents
+--------------------------------------------------------------*/
+
+    /* Primary */
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry.sticky > div.entry-title:before, .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry:hover > div.entry-title:before { background-color: var(--DTPrimaryColor); } 
+
+    .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry.sticky > div.entry-title:after, .dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry:hover > div.entry-title:after { border-color: var(--DTPrimaryColor); }	 
+
+    
+/*--------------------------------------------------------------
+    Responsive
+--------------------------------------------------------------*/    
+
+    /*----*****---- << Laptop >> ----*****----*/
+    @media only screen and (min-width:1281px) and (max-width:1440px) {
+    
+    
+    }    
+
+
+
+    /*----*****---- << Tablet (Portrait) >> ----*****----*/ 
+
+    /* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:1024px) {
+
+        .dt-sc-one-third.dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div, .dt-sc-one-third.dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:last-child, .dt-sc-one-third.dt-sc-title-overlap-style.dt-sc-post-entry .blog-entry > div.entry-meta-group > div:nth-last-child(-n+2) { margin-bottom: 10px; }
+
+        #primary.page-with-sidebar .dt-sc-title-overlap-style.dt-sc-post-entry.entry-left-thumb .blog-entry { text-align: left; }
+        #primary.page-with-sidebar .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry { text-align: right; }    
+        
+        #primary.page-with-sidebar .dt-sc-title-overlap-style.dt-sc-post-entry.entry-left-thumb .blog-entry > div.entry-title { margin-left: 20px; padding-left: 20px; padding-right: 20px; }   
+        #primary.page-with-sidebar .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-title { margin-right: 20px; padding-left: 20px; padding-right: 20px; }
+
+    }
+
+
+    /*----*****---- << Mobile (Landscape) >> ----*****----*/    
+
+    /* Common Styles for the devices below 767px width */
+    @media only screen and (max-width: 767px) {    
+    
+        .dt-sc-title-overlap-style.dt-sc-post-entry.entry-list-layout .blog-entry > div.entry-thumb + div.entry-title { margin-top: 0; margin-bottom: 0; top: -25px; }
+    
+        .dt-sc-title-overlap-style.dt-sc-post-entry.entry-left-thumb .blog-entry > div.entry-title, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-title, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-left-thumb .blog-entry:not(.has-post-thumbnail) > div.entry-title, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry:not(.has-post-thumbnail) > div.entry-title { margin-left: 0; margin-right: 0; padding-left: 25px; padding-right: 25px; width: 75%; }
+    
+        .dt-sc-title-overlap-style.dt-sc-post-entry.entry-left-thumb .blog-entry > div.entry-title:before, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-left-thumb .blog-entry > div.entry-title:after, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-title:before, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-title:after { left: 0; right: 0; width: auto; }
+    
+        .dt-sc-title-overlap-style.dt-sc-post-entry.entry-left-thumb .blog-entry > div.entry-title:after, .dt-sc-title-overlap-style.dt-sc-post-entry.entry-right-thumb .blog-entry > div.entry-title:after { margin: 10px -10px -10px; }
+    
+    }    

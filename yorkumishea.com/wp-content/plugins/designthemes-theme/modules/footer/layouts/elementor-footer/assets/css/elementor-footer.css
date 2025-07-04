@@ -1,0 +1,58 @@
+
+/*--------------------------------------------------------------
+    Footer
+--------------------------------------------------------------*/
+
+    #footer .elementor-section.elementor-section-boxed > .elementor-container { max-width: 1230px; }
+
+    
+
+/*--------------------------------------------------------------
+    Responsive
+--------------------------------------------------------------*/
+
+    /*----*****---- << Laptop/Notebook >> ----*****----*/
+
+    @media only screen and (min-width:1281px) and (max-width:1440px) {
+
+        #footer .elementor-section.elementor-section-boxed > .elementor-container { max-width: 1080px; }
+
+    }
+
+
+/*----*****---- << Tablet (Landscape) >> ----*****----*/
+
+    /* Note: Design for a width of 960px */	
+    @media only screen and (min-width:1025px) and (max-width:1280px) {
+
+        #footer .elementor-section.elementor-section-boxed > .elementor-container { max-width:900px; }
+
+    }
+
+
+/*----*****---- << Tablet (Portrait) >> ----*****----*/	
+
+    /* Note: Design for a width of 768px */
+    @media only screen and (min-width:768px) and (max-width:1024px) {
+
+        #footer .elementor-section.elementor-section-boxed > .elementor-container { max-width:710px; }
+
+    }
+
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+
+    /* Note: Design for a width of 480px */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+        #footer .elementor-section.elementor-section-boxed > .elementor-container { max-width:420px; }
+
+    }
+
+
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+    @media only screen and (min-width: 320px) and (max-width: 479px) {
+
+        #footer .elementor-section.elementor-section-boxed > .elementor-container { max-width: 290px; }
+
+    }

@@ -1,0 +1,49 @@
+
+
+.dt-sc-tab-titles { margin: 0; padding: 0; }
+.dt-sc-tab-container .dt-sc-tab-titles li a { font-size: var(--DTFontSizeBase); }
+
+.dt-sc-tab-container.horizontal .dt-sc-tab-titles { display: flex; align-items: center; }
+.dt-sc-tab-container.horizontal .dt-sc-tab-titles li { display: inline-block; flex: 1 0 auto; margin: 0; padding: 0; text-align: center; }
+
+.dt-sc-tab-container.horizontal .dt-sc-tab-titles li a { display: inline-block; font-weight: bold; padding: 10px 15px; position: relative; width: 100%; }
+
+.dt-sc-tab-container.horizontal .dt-sc-tab-titles li a:before {
+    border: 1px solid var(--DTPrimaryColor);
+    content: "";
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+.dt-sc-tab-container.horizontal .dt-sc-tab-titles li + li a:before { margin-left: -1px; }
+
+.dt-sc-tab-container.horizontal .dt-sc-tab-titles li.current a { background-color: rgba(var(--DTPrimary_RGB),0.5); color: var(--DTBlackColor); }
+
+.dt-sc-tab-container.horizontal .dt-sc-tab-content { padding: 10px 0; }
+
+.dt-sc-tab-container.vertical { display: flex; align-items: stretch; }
+.dt-sc-tab-container.vertical .dt-sc-tab-titles { display: flex; flex-direction: column; align-items: stretch; flex: 0 1 auto; min-width: 200px; max-width: 25%; }
+.dt-sc-tab-container.vertical .dt-sc-tab-content { align-self: stretch; flex: 1 1 auto; overflow: hidden; padding: 0 10px; }
+
+.dt-sc-tab-container.vertical .dt-sc-tab-titles li, 
+.dt-sc-tab-container.vertical .dt-sc-tab-titles li a { display: inline-block; width: 100%; }
+.dt-sc-tab-container.vertical .dt-sc-tab-titles li { margin: 0 0 1px !important; }
+.dt-sc-tab-container.vertical .dt-sc-tab-titles li a { border-bottom: 1px solid rgba(var(--DTPrimary_RGB),.5); font-weight: 600; padding: 10px 35px 10px 15px; position: relative; }
+.dt-sc-tab-container.vertical .dt-sc-tab-titles li:last-child a { border-width: 0; }
+
+.dt-sc-tab-container.vertical .dt-sc-tab-titles li a:before { background-color: rgba(var(--DTPrimary_RGB),.5); content: ""; height: auto; margin: 0; position: absolute; bottom: 0; left: 0; right: 0; top: 0; width: auto; z-index: -1; opacity: 0; visibility: hidden; transition: inherit; }
+
+.dt-sc-tab-container.vertical .dt-sc-tab-titles li a:after { content: "\f105"; font-family: "DT Icons"; font-size: 20px; line-height: inherit; opacity: 0.5; position: absolute; right: 0; top: 5px; text-align: center; width: 35px; }
+
+.dt-sc-tab-container.vertical .dt-sc-tab-titles li:hover a:after, 
+.dt-sc-tab-container.vertical .dt-sc-tab-titles li.current a:after { opacity: 1; }
+
+.dt-sc-tab-container.vertical .dt-sc-tab-titles li:hover a:before, 
+.dt-sc-tab-container.vertical .dt-sc-tab-titles li.current a:before { margin: -1px 0 0; opacity: 1; visibility: visible }
+
+.dt-sc-tab-container.vertical .dt-sc-tab-titles li:hover a, 
+.dt-sc-tab-container.vertical .dt-sc-tab-titles li.current a { border-color: transparent; color: var(--DTBlackColor) !important; }

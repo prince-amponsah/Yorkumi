@@ -1,0 +1,32 @@
+/*----*****---- << Portfolio Comment Entries >> ----*****----*/	
+		
+	.commententries .comments-area:empty, .commententries:empty { display: none; }
+	.commententries .comments-area { margin:10px 0 0; }
+	.dtportfolio-comments-area ul.commentlist { float:left; margin:20px 0 20px 0; padding:0 0 20px 0; list-style:none; border-top:0; }
+	.dtportfolio-comments-area ul.commentlist li.comment { display:block; float:none; list-style:none; border:none; margin:0 0 30px; padding:0 0 0 80px; position:relative; clear:both; }
+	.dtportfolio-comments-area ul.commentlist li.pingback { padding-left:0; }
+	.dtportfolio-comments-area ul.commentlist li.pingback > p > a { margin-left:5px; }
+	
+	.dtportfolio-comments-area ul.commentlist li ul.children { margin:10px 0 10px; padding:0; float:left; border:none; clear:both; width:100%; }
+	.dtportfolio-comments-area ul.commentlist li .respond { margin-left:69px; }
+	
+	.dtportfolio-comments-area ul.commentlist li .comment-details { position:relative; padding:0 0 10px; margin:10px 0 10px; }
+	
+	.dtportfolio-comments-area ul.commentlist li .comment-details:before { bottom:0; content:''; left:0; position:absolute; width:100%; }
+	
+	.dtportfolio-comments-area ul.commentlist li .comment-body { margin:10px 0 0; padding-left: 0; } 
+	.dtportfolio-comments-area ul.commentlist li .comment-body p { line-height:28px; }
+	
+	.dtportfolio-comments-area ul.commentlist li .comment-author { left:0; top:0; position:absolute; }
+	.dtportfolio-comments-area ul.commentlist li .comment-author img { max-width:80px; max-height:80px; float:left; margin:0; border-radius:80px; position: static; }
+	.dtportfolio-comments-area ul.commentlist li .author-name > a { font-size:18px; color:#000; }
+	.dtportfolio-comments-area ul.commentlist li .author-name span { font-size:14px; color:#aaaaaa;  width: 100%; float: left; }
+	.dtportfolio-comments-area ul.commentlist li.bypostauthor .author-name { border-bottom: 1px solid #aaaaaa; }
+	
+	.dtportfolio-comments-area ul.commentlist li .comment-details { display:block; }		
+	
+	.dtportfolio-comments-area ul.commentlist li .author-name .reply { margin:0; float:right; }
+	.dtportfolio-comments-area ul.commentlist li .reply a { clear:both; display:inline-block; background-color: #222; margin:10px 0 0; padding:6px 13px; color:#fff; }
+	.dtportfolio-comments-area ul.commentlist li .reply a:hover { background-color:#767676; }
+	
+	.dtportfolio-comments-area ul.commentlist li #respond { padding-bottom:20px; }		
